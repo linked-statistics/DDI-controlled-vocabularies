@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://rdf-vocabulary.ddialliance.org/DDICV#> a skos:ConceptScheme ;
+	dc:title "DDI Controlled Vocabularies"@en ;
+	dc:description "Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values."@en , "A first set of controlled vocabularies is now being developed for the DDI standard, to be used to describe specific aspects of research data across the data life cycle. These DDI-CVs, which are being created by the DDI Controlled Vocabularies Group (CVG), may be used for other purposes and by other applications as well. The group will add new vocabularies to the site as soon as they are finalized, in addition to the core set published at this point."@en , <http://www.ddialliance.org/controlled-vocabularies> ;
+	owl:versionInfo "1.0" ;
+	skos:hasTopConcept <http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType#> .
