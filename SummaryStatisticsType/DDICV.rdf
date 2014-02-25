@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV#">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<dc:title xml:lang="en">DDI Controlled Vocabularies</dc:title>
+	<dc:description xml:lang="en">Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values.</dc:description>
+	<dc:description xml:lang="en">A first set of controlled vocabularies is now being developed for the DDI standard, to be used to describe specific aspects of research data across the data life cycle. These DDI-CVs, which are being created by the DDI Controlled Vocabularies Group (CVG), may be used for other purposes and by other applications as well. The group will add new vocabularies to the site as soon as they are finalized, in addition to the core set published at this point.</dc:description>
+	<dc:description rdf:resource="http://www.ddialliance.org/controlled-vocabularies"/>
+	<owl:versionInfo>1.0</owl:versionInfo>
+	<skos:member rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType#"/>
+</rdf:Description>
+
+</rdf:RDF>
