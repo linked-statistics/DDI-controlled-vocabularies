@@ -55,6 +55,8 @@
 	<skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#Beta1"/>
 	<skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#Beta2"/>
 	<skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#ShapiroWilk"/>
+	<skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#PercentOfValidCases"/>
+	<skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#PercentOfInvalidCases"/>
 	<skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#Other"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
 	<dcterms:rights>Copyright DDI Alliance 2011</dcterms:rights>
@@ -386,6 +388,22 @@
 	<skos:prefLabel xml:lang="en">Shapiro-Wilk</skos:prefLabel>
 	<skos:notation>ShapiroWilk</skos:notation>
 	<skos:definition xml:lang="en">Normality test statistics.</skos:definition>
+</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#PercentOfValidCases">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#CodeList"/>
+	<skos:prefLabel xml:lang="en">Percentage of valid cases</skos:prefLabel>
+	<skos:notation>PercentOfValidCases</skos:notation>
+	<skos:definition xml:lang="en">Percentage of valid cases of the total number of cases.</skos:definition>
+</rdf:Description>
+
+	<rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#PercentOfInvalidCases">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#CodeList"/>
+	<skos:prefLabel xml:lang="en">Percentage of invalid cases</skos:prefLabel>
+	<skos:notation>PercentOfInvalidCases</skos:notation>
+	<skos:definition xml:lang="en">Percentage of invalid cases of the total number of cases.</skos:definition>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#Other">

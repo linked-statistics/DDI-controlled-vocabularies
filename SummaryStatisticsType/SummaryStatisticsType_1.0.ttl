@@ -260,6 +260,18 @@ ddicv-sumstats:ShapiroWilk a skos:Concept ;
 	skos:prefLabel "Shapiro-Wilk"@en ;
 	skos:notation "ShapiroWilk" ;
 	skos:definition "Normality test statistics."@en .
+	
+ddicv-sumstats:PercentOfValidCases a skos:Concept ;
+	skos:inScheme ddicv-sumstats:CodeList ;
+	skos:prefLabel "Percentage of valid cases"@en ;
+	skos:notation "PercentOfValidCases" ;
+	skos:definition "Percentage of valid cases of the total number of cases."@en .
+	
+ddicv-sumstats:PercentOfInvalidCases a skos:Concept ;
+	skos:inScheme ddicv-sumstats:CodeList ;
+	skos:prefLabel "Percentage of invalid cases"@en ;
+	skos:notation "PercentOfInvalidCases" ;
+	skos:definition "Percentage of invalid cases of the total number of cases."@en .
 
 ddicv-sumstats:Other a skos:Concept ;
 	skos:inScheme ddicv-sumstats:CodeList ;
