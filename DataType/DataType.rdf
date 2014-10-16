@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+	<rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DataType#">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+		<dcterms:title xml:lang="en">Base Scheme of Data Type</dcterms:title>
+		<dcterms:description xml:lang="en">Identifies the type of data, which has a bearing on the acceptable data values, the operations that can be performed with the data, and the ways in which the data are stored. The present list is based on the W3C data types, and includes the terms relevant for documenting research data.</dcterms:description>
+	<owl:versionInfo>1.0</owl:versionInfo>
+		<dcterms:hasVersion rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DataType_1.0#"/>
+</rdf:Description>
+
+</rdf:RDF>

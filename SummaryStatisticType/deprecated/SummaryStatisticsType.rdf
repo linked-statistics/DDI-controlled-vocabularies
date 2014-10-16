@@ -8,8 +8,8 @@
 
 <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType#">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-	<dc:title xml:lang="en">Base Scheme of Summary Statistic Type</dc:title>
-	<dc:description xml:lang="en">Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values.</dc:description>
+	<dcterms:title xml:lang="en">Base Scheme of Summary Statistic Type</dcterms:title>
+	<dcterms:description xml:lang="en">Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values.</dcterms:description>
 	<owl:versionInfo>1.0</owl:versionInfo>
 	<dcterms:hasVersion rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#"/>
 </rdf:Description>

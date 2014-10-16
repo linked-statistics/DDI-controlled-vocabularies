@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType#> a skos:ConceptScheme ;
+	dcterms:title "Base Scheme of Summary Statistic Type"@en ;
+	dcterms:description "Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values."@en ;
+	owl:versionInfo "1.0" ;
+	dcterms:hasVersion <http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_1.0#>, <http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#> .

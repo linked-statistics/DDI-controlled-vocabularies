@@ -5,7 +5,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType#> a skos:ConceptScheme ;
-	dc:title "Base Scheme of Summary Statistic Type"@en ;
-	dc:description "Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values."@en ;
+	dcterms:title "Base Scheme of Summary Statistic Type"@en ;
+	dcterms:description "Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values."@en ;
 	owl:versionInfo "1.0" ;
 	dcterms:hasVersion <http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticsType_1.0#> .
