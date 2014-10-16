@@ -124,10 +124,13 @@
             <xsl:element name="skos:notation">
                 <xsl:value-of select="Value[@ColumnRef='Code']/SimpleValue/."/>
             </xsl:element>
+            
+            <xsl:if test="Value[@ColumnRef='Definition']/ComplexValue/ddi-cv:Value!=''">
             <xsl:element name="skos:definition">
                 <xsl:attribute name="xml:lang">en</xsl:attribute>
                 <xsl:value-of select="Value[@ColumnRef='Definition']/ComplexValue/ddi-cv:Value/."/>
             </xsl:element>
+                </xsl:if>
         
         </xsl:element>
         
