@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Time Method</dcterms:title>
+      <skos:notation>TimeMethod</skos:notation>
+      <dcterms:description xml:lang="en">Describes the time dimension of the data collection.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod#"/>
+      <owl:versionInfo>1.1</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.CohortEventBased"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.TrendRepeatedCrossSection"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Continuous"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Interval"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Continuous"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Discrete"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CrossSection"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CrossSectionAdHocFollowUp"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Longitudinal</skos:prefLabel>
+      <skos:notation>Longitudinal</skos:notation>
+      <skos:definition xml:lang="en">Data collected repeatedly over time to study change in a population.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.CohortEventBased">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Longitudinal: Cohort/Event-based</skos:prefLabel>
+      <skos:notation>Longitudinal.CohortEventBased</skos:notation>
+      <skos:definition xml:lang="en">Data collected over time about a group of individuals that are connected in some way or have shared some significant experience within a given period. Examples: birth, disease, education, employment, family formation, participation in an event.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.TrendRepeatedCrossSection">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Longitudinal: Trend/Repeated cross-section</skos:prefLabel>
+      <skos:notation>Longitudinal.TrendRepeatedCrossSection</skos:notation>
+      <skos:definition xml:lang="en">Studies different samples/different groups of people from the same population at several points in time, using the same set of questions/variables. Conclusions are drawn for the population. Examples: public opinion polls, elections studies, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Longitudinal: Panel</skos:prefLabel>
+      <skos:notation>Longitudinal.Panel</skos:notation>
+      <skos:definition xml:lang="en">Data collected over time from, or about, the same sample of respondents.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Continuous">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Longitudinal: Panel: Continuous</skos:prefLabel>
+      <skos:notation>Longitudinal.Panel.Continuous</skos:notation>
+      <skos:definition xml:lang="en">Reports from the panel are collected on a regular basis.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Interval">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Longitudinal: Panel: Interval</skos:prefLabel>
+      <skos:notation>Longitudinal.Panel.Interval</skos:notation>
+      <skos:definition xml:lang="en">Measurements are taken only when information is needed.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Time Series</skos:prefLabel>
+      <skos:notation>TimeSeries</skos:notation>
+      <skos:definition xml:lang="en">Data collected repeatedly over time to study change in observations. These are typically "objective" measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Continuous">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">TimeSeries: Continuous</skos:prefLabel>
+      <skos:notation>TimeSeries.Continuous</skos:notation>
+      <skos:definition xml:lang="en">Phenomena are measured at every instant in time. Examples: lie detectors, electrocardiograms, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Discrete">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">TimeSeries: Discrete</skos:prefLabel>
+      <skos:notation>TimeSeries.Discrete</skos:notation>
+      <skos:definition xml:lang="en">Measurements are taken at (usually regularly) spaced intervals. Examples: macroeconomics (weekly share prices, monthly profits, sales); meteorology (hourly temperature); measurements of individuals (blood pressure, weight, height); sociology (crime figures, employment figures), etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CrossSection">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Cross-section</skos:prefLabel>
+      <skos:notation>CrossSection</skos:notation>
+      <skos:definition xml:lang="en">Cross-sectional data is data collected by observing subjects at the same point in time, or without regard to differences in time. Analysis of cross-sectional data usually consists in comparing the differences among subjects, but is not focused on studying change over time (adapted from Wikipedia).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CrossSectionAdHocFollowUp">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Cross-section ad-hoc follow-up</skos:prefLabel>
+      <skos:notation>CrossSectionAdHocFollowUp</skos:notation>
+      <skos:definition xml:lang="en">Data collected at one point in time to complete information collected in a previous cross-sectional study; the decision to collect follow-up data is not included in the study design.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the time method is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

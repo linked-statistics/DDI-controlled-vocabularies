@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?><gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ddi-cv="urn:ddi-cv" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd">
+    <!--
+
+DDI Controlled Vocabulary TimeZone 1.0
+
+Copyright © DDI Alliance (http://www.ddialliance.org/) 2014.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+This work is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ 
+You are free:
+ 
+    * to Share - to copy, distribute and transmit the work
+    * to Remix - to adapt the work
+ 
+Under the following conditions:
+ 
+    * Attribution - You must attribute the work in the manner specified by
+      the author or licensor (but not in any way that suggests that they 
+      endorse you or your use of the work).
+    * Share Alike - If you alter, transform, or build upon this work, you
+      may distribute the resulting work only under the same or similar
+      license to this one.
+ 
+With the understanding that:
+ 
+    * Waiver - Any of the above conditions can be waived if you get
+      permission from the copyright holder.
+    * Public Domain - Where the work or any of its elements is in the
+      public domain under applicable law, that status is in no way 
+      affected by the license.
+    * Other Rights - In no way are any of the following rights affected by
+      the license:
+          - Your fair dealing or fair use rights, or other applicable 
+            copyright exceptions and limitations;
+          - The author's moral rights;
+          - Rights other persons may have either in the work itself or in 
+            how the work is used, such as publicity or privacy rights.
+    * Notice - For any reuse or distribution, you must make clear to
+      others the license terms of this work. The best way to do this is 
+      with a link to this web page.
+ 
+This is a human-readable summary of the Legal Code (the full license).
+ 
+Human-readable summary:
+http://creativecommons.org/licenses/by-sa/3.0/
+ 
+Full license:
+http://creativecommons.org/licenses/by-sa/3.0/legalcode
+ 
+License logo:
+http://i.creativecommons.org/l/by-sa/3.0/80x15.png
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+-->
+    <Annotation>
+        <Description>
+            <h:div xml:lang="en-US" class="Description">
+                <h:p>Time zone specification as an offset from UTC (Coordinated Universal Time) in terms of hours and minutes.</h:p>
+            </h:div>
+             <h:div xml:lang="en-US" class="Note">
+	       <h:p>This is not an exhaustive list.</h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="VersionNotes">
+                <h:p></h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="VersionChanges">
+                <h:p></h:p>
+            </h:div>
+            <h:div class="Usage">
+                <h:div class="DDI3.2">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2">DDI 3.2</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+                        <h:p>Coded values specifying time zones as offsets from Greenwich Meridian Time [or Coordinated Universal Time, UTC]. For example, United States Eastern Standard Time is -5.00.
+		</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Module Name</h:th>
+                                <h:th>Element Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>reusable</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/reusable_xsd/elements/TimeZone.html">TimeZone</h:a>
+                                </h:td>
+                            </h:tr>
+                        </h:tbody>
+                    </h:table>
+                </h:div>
+                <h:div class="DDI2.5">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/">DDI 2.5</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+		              <h:p>DDI-Codebook (DDI 2.5 and all previous DDI versions) does not include an element that would support this controlled vocabulary.
+		    	</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Element Number in DDI 2.1</h:th>
+                                <h:th>Element/Attribute Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td> </h:td>
+                                <h:td> </h:td>
+                              </h:tr>
+                        </h:tbody>
+                    </h:table>
+                </h:div>
+            </h:div>
+        </Description>
+        <AppInfo>
+            <ddi-cv:Value key="LicenseName">Creative Commons Attribution-ShareAlike 3</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseUrl">http://creativecommons.org/licenses/by-sa/3.0/</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseLogoUrl">http://i.creativecommons.org/l/by-sa/3.0/80x15.png</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightText">Copyright ©</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwner">DDI Alliance</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwnerUrl">http://www.ddialliance.org/</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightYear">2014</ddi-cv:Value>
+        </AppInfo>
+    </Annotation>
+    <Identification>
+        <ShortName>TimeZone</ShortName>
+        <LongName xml:lang="en-US">Time Zone</LongName>
+        <Version>1.0</Version>
+        <CanonicalUri>urn:ddi-cv:TimeZone</CanonicalUri>
+        <CanonicalVersionUri>urn:ddi-cv:TimeZone:1.0</CanonicalVersionUri>
+        <LocationUri>http://www.ddialliance.org/Specification/DDI-CV/TimeZone_1.0_Genericode1.0_DDI-CVProfile1.0.xml</LocationUri>
+        <AlternateFormatLocationUri MimeType="text/html">http://www.ddialliance.org/Specification/DDI-CV/TimeZone_1.0.html</AlternateFormatLocationUri>
+        <AlternateFormatLocationUri MimeType="application/vnd.ms-excel">http://www.ddialliance.org/Specification/DDI-CV/TimeZone_1.0_InputSheet_Excel2003.xls</AlternateFormatLocationUri>
+        <Agency>
+            <ShortName>DDI Alliance</ShortName>
+            <LongName xml:lang="en-US">The Alliance for the Data Documentation Initiative</LongName>
+            <Identifier>DDI</Identifier>
+        </Agency>
+    </Identification>
+    <ColumnSet>
+        <Column Use="required" Id="Code">
+            <ShortName>Code</ShortName>
+            <LongName xml:lang="en-US">Value of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Term">
+            <ShortName>Term</ShortName>
+            <LongName xml:lang="en-US">Descriptive Term of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Definition">
+            <ShortName>Definition</ShortName>
+            <LongName xml:lang="en-US">Definition of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="CodeKey">
+            <ShortName>CodeKey</ShortName>
+            <LongName xml:lang="en-US">The unique identification of each item in a code list.</LongName>
+            <ColumnRef Ref="Code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>-12:00</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">UTC- 12:00</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Baker Island, Howland Island (both uninhabited)</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-11:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 11:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Samoa Standard Time (SST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-10:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 10:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Hawaii Standard Time (HST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-09:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 09:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Marquesas Time (MART)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-09:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 09:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Alaska Standard Time (AKST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-08:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 08:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Pacific Standard Time (PST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-07:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 07:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Mountain Standard Time (North America) (MST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-06:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 06:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Central Standard Time (North and Central Americas) (CST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-05:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 05:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Eastern Standard Time (North and Central Americas, Caribbean) (EST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-04:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 04:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Venezuelan Standard Time (VET)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-04:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 04:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Atlantic Standard Time (North America, Caribbean) (AST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-03:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 03:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Newfoundland Standard Time (NST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-03:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 03:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">West Greenland Time (WGT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-02:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 02:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Fernando de Noronha Time (FNT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>-01:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC- 01:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Central African Time (CAT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>00:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Universal Coordinated Time (UTC) / Greenwich Mean Time (GMT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+01:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 01:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">European Central Time (ECT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+02:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 02:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Eastern European Time (EET), (Arabic) Egypt Standard Time (ART)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+03:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 03:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Eastern African Time (EAT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+03:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 03:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Middle East Time (MET)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+04:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 04:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Near East Time (NET)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+04:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 04:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Afganistan Time (AFT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+05:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 05:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Pakistan Lahore Time (PLT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+05:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 05:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">India Standard Time (IST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+05:45</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 05:45</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Nepal Time (NPT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+06:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 06:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Bangladesh Standard Time (BST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+06:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 06:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Cocos Islands Time (CCT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+07:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 07:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Vietnam Standard Time (VST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+08:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 08:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">China Taiwan Time (CTT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+09:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 09:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Japan Standard Time (JST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+09:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 09:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Australia Central Time (ACT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+10:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 10:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Australia Eastern Time (AET)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+10:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 10:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Lord Howe Standard Time (LHST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+11:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 11:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Solomon Standard Time (SST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+11:30</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 11:30</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Norfolk Time (Australia) (NFT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+12:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 12:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">New Zealand Standard Time (NZST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+12:45</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 12:45</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Chatham Island Standard Time (CHAST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+13:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 13:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">West Samoa Time (WST)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>+14:00</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">UTC + 14:00</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Line Islands Time (LINT)</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+                <Row>
+	            <Value ColumnRef="Code">
+	                <SimpleValue>Other</SimpleValue>
+	            </Value>
+	            <Value ColumnRef="Term">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Other</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+	            <Value ColumnRef="Definition">
+	                <ComplexValue>
+	                    <ddi-cv:Value xml:lang="en-US">Use if Time Zone is known, but not found in the list; enter new code in the same format used in this list, i.e., ±xx:xx as an offset from UTC.</ddi-cv:Value>
+	                </ComplexValue>
+	            </Value>
+        </Row>
+    </SimpleCodeList>
+</gc:CodeList>

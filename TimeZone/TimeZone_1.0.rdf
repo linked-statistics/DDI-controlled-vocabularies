@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Time Zone</dcterms:title>
+      <skos:notation>TimeZone</skos:notation>
+      <dcterms:description xml:lang="en">Time zone specification as an offset from UTC (Coordinated Universal Time) in terms of hours and minutes.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2014</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-12:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-11:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-10:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-09:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-09:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-08:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-07:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-06:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-05:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-04:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-04:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-03:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-03:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-02:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-01:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#00:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+01:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+02:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+03:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+03:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+04:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+04:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+05:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+05:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+05:45"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+06:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+06:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+07:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+08:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+09:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+09:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+10:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+10:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+11:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+11:30"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+12:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+12:45"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+13:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+14:00"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-12:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 12:00</skos:prefLabel>
+      <skos:notation>-12:00</skos:notation>
+      <skos:definition xml:lang="en">Baker Island, Howland Island (both uninhabited)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-11:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 11:00</skos:prefLabel>
+      <skos:notation>-11:00</skos:notation>
+      <skos:definition xml:lang="en">Samoa Standard Time (SST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-10:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 10:00</skos:prefLabel>
+      <skos:notation>-10:00</skos:notation>
+      <skos:definition xml:lang="en">Hawaii Standard Time (HST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-09:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 09:30</skos:prefLabel>
+      <skos:notation>-09:30</skos:notation>
+      <skos:definition xml:lang="en">Marquesas Time (MART)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-09:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 09:00</skos:prefLabel>
+      <skos:notation>-09:00</skos:notation>
+      <skos:definition xml:lang="en">Alaska Standard Time (AKST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-08:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 08:00</skos:prefLabel>
+      <skos:notation>-08:00</skos:notation>
+      <skos:definition xml:lang="en">Pacific Standard Time (PST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-07:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 07:00</skos:prefLabel>
+      <skos:notation>-07:00</skos:notation>
+      <skos:definition xml:lang="en">Mountain Standard Time (North America) (MST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-06:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 06:00</skos:prefLabel>
+      <skos:notation>-06:00</skos:notation>
+      <skos:definition xml:lang="en">Central Standard Time (North and Central Americas) (CST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-05:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 05:00</skos:prefLabel>
+      <skos:notation>-05:00</skos:notation>
+      <skos:definition xml:lang="en">Eastern Standard Time (North and Central Americas, Caribbean) (EST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-04:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 04:30</skos:prefLabel>
+      <skos:notation>-04:30</skos:notation>
+      <skos:definition xml:lang="en">Venezuelan Standard Time (VET)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-04:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 04:00</skos:prefLabel>
+      <skos:notation>-04:00</skos:notation>
+      <skos:definition xml:lang="en">Atlantic Standard Time (North America, Caribbean) (AST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-03:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 03:30</skos:prefLabel>
+      <skos:notation>-03:30</skos:notation>
+      <skos:definition xml:lang="en">Newfoundland Standard Time (NST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-03:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 03:00</skos:prefLabel>
+      <skos:notation>-03:00</skos:notation>
+      <skos:definition xml:lang="en">West Greenland Time (WGT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-02:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 02:00</skos:prefLabel>
+      <skos:notation>-02:00</skos:notation>
+      <skos:definition xml:lang="en">Fernando de Noronha Time (FNT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#-01:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC- 01:00</skos:prefLabel>
+      <skos:notation>-01:00</skos:notation>
+      <skos:definition xml:lang="en">Central African Time (CAT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#00:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC</skos:prefLabel>
+      <skos:notation>00:00</skos:notation>
+      <skos:definition xml:lang="en">Universal Coordinated Time (UTC) / Greenwich Mean Time (GMT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+01:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 01:00</skos:prefLabel>
+      <skos:notation>+01:00</skos:notation>
+      <skos:definition xml:lang="en">European Central Time (ECT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+02:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 02:00</skos:prefLabel>
+      <skos:notation>+02:00</skos:notation>
+      <skos:definition xml:lang="en">Eastern European Time (EET), (Arabic) Egypt Standard Time (ART)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+03:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 03:00</skos:prefLabel>
+      <skos:notation>+03:00</skos:notation>
+      <skos:definition xml:lang="en">Eastern African Time (EAT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+03:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 03:30</skos:prefLabel>
+      <skos:notation>+03:30</skos:notation>
+      <skos:definition xml:lang="en">Middle East Time (MET)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+04:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 04:00</skos:prefLabel>
+      <skos:notation>+04:00</skos:notation>
+      <skos:definition xml:lang="en">Near East Time (NET)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+04:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 04:30</skos:prefLabel>
+      <skos:notation>+04:30</skos:notation>
+      <skos:definition xml:lang="en">Afganistan Time (AFT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+05:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 05:00</skos:prefLabel>
+      <skos:notation>+05:00</skos:notation>
+      <skos:definition xml:lang="en">Pakistan Lahore Time (PLT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+05:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 05:30</skos:prefLabel>
+      <skos:notation>+05:30</skos:notation>
+      <skos:definition xml:lang="en">India Standard Time (IST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+05:45">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 05:45</skos:prefLabel>
+      <skos:notation>+05:45</skos:notation>
+      <skos:definition xml:lang="en">Nepal Time (NPT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+06:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 06:00</skos:prefLabel>
+      <skos:notation>+06:00</skos:notation>
+      <skos:definition xml:lang="en">Bangladesh Standard Time (BST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+06:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 06:30</skos:prefLabel>
+      <skos:notation>+06:30</skos:notation>
+      <skos:definition xml:lang="en">Cocos Islands Time (CCT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+07:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 07:00</skos:prefLabel>
+      <skos:notation>+07:00</skos:notation>
+      <skos:definition xml:lang="en">Vietnam Standard Time (VST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+08:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 08:00</skos:prefLabel>
+      <skos:notation>+08:00</skos:notation>
+      <skos:definition xml:lang="en">China Taiwan Time (CTT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+09:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 09:00</skos:prefLabel>
+      <skos:notation>+09:00</skos:notation>
+      <skos:definition xml:lang="en">Japan Standard Time (JST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+09:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 09:30</skos:prefLabel>
+      <skos:notation>+09:30</skos:notation>
+      <skos:definition xml:lang="en">Australia Central Time (ACT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+10:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 10:00</skos:prefLabel>
+      <skos:notation>+10:00</skos:notation>
+      <skos:definition xml:lang="en">Australia Eastern Time (AET)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+10:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 10:30</skos:prefLabel>
+      <skos:notation>+10:30</skos:notation>
+      <skos:definition xml:lang="en">Lord Howe Standard Time (LHST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+11:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 11:00</skos:prefLabel>
+      <skos:notation>+11:00</skos:notation>
+      <skos:definition xml:lang="en">Solomon Standard Time (SST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+11:30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 11:30</skos:prefLabel>
+      <skos:notation>+11:30</skos:notation>
+      <skos:definition xml:lang="en">Norfolk Time (Australia) (NFT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+12:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 12:00</skos:prefLabel>
+      <skos:notation>+12:00</skos:notation>
+      <skos:definition xml:lang="en">New Zealand Standard Time (NZST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+12:45">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 12:45</skos:prefLabel>
+      <skos:notation>+12:45</skos:notation>
+      <skos:definition xml:lang="en">Chatham Island Standard Time (CHAST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+13:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 13:00</skos:prefLabel>
+      <skos:notation>+13:00</skos:notation>
+      <skos:definition xml:lang="en">West Samoa Time (WST)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#+14:00">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">UTC + 14:00</skos:prefLabel>
+      <skos:notation>+14:00</skos:notation>
+      <skos:definition xml:lang="en">Line Islands Time (LINT)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeZone_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if Time Zone is known, but not found in the list; enter new code in the same format used in this list, i.e., ±xx:xx as an offset from UTC.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

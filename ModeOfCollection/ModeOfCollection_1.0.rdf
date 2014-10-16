@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Mode of Collection</dcterms:title>
+      <skos:notation>ModeOfCollection</skos:notation>
+      <dcterms:description xml:lang="en">The procedure, technique, or mode of inquiry used to attain the data.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.FaceToFace"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.FaceToFace.CAPI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.FaceToFace.PAPI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.Telephone"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.Telephone.CATI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.Email"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.WebBased"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.Email"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.Paper"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.SMSorMMS"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.WebBased"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI.VCASI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI.ACASI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI.TACASI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CAWI"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup.FaceToFace"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup.Telephone"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup.Online"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries.Email"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries.Paper"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries.WebBased"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Field"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Field.Participant"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Field.Nonparticipant"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Laboratory"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Laboratory.Participant"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Laboratory.Nonparticipant"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.ComputerBased"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment.Laboratory"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment.FieldIntervention"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment.WebBased"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Recording"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#ContentCoding"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Transcription"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CompilationSynthesis"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Summary"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Aggregation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Simulation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests.Educational"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests.Physical"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests.Psychological"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interview</skos:prefLabel>
+      <skos:notation>Interview</skos:notation>
+      <skos:definition xml:lang="en">A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). If group interaction is part of the method, use “Focus group”.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.FaceToFace">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Face-to-face interview</skos:prefLabel>
+      <skos:notation>Interview.FaceToFace</skos:notation>
+      <skos:definition xml:lang="en">Data collection method in which a live interviewer conducts a personal interview, presenting questions and entering the responses. Use this broader term if not CAPI or PAPI, or if not known whether CAPI /PAPI or not.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.FaceToFace.CAPI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Face-to-face interview: CAPI</skos:prefLabel>
+      <skos:notation>Interview.FaceToFace.CAPI</skos:notation>
+      <skos:definition xml:lang="en">Computer-assisted personal interviewing.  Data collection method in which the interviewer reads questions to the respondents from a computer's screen and keys in the answers. The administration of the interview is managed by a specifically designed program.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.FaceToFace.PAPI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Face-to-face interview: PAPI</skos:prefLabel>
+      <skos:notation>Interview.FaceToFace.PAPI</skos:notation>
+      <skos:definition xml:lang="en">Paper-and-pencil interviewing. The interviewer uses a traditional paper questionnaire to read the questions and enter the answers.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.Telephone">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Telephone interview</skos:prefLabel>
+      <skos:notation>Interview.Telephone</skos:notation>
+      <skos:definition xml:lang="en">Interview administered on the telephone. Use this broader term if not CATI, or if not known whether CATI or not.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.Telephone.CATI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Telephone interview: CATI</skos:prefLabel>
+      <skos:notation>Interview.Telephone.CATI</skos:notation>
+      <skos:definition xml:lang="en">Computer-assisted telephone interviewing. The interviewer asks questions as directed by a computer, responses are keyed directly into the computer and the administration of the interview is managed by a specifically designed program.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.Email">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">E-mail interview</skos:prefLabel>
+      <skos:notation>Interview.Email</skos:notation>
+      <skos:definition xml:lang="en">Interviews conducted via e-mail, usually consisting of several e-mail messages that allow the discussion to continue beyond the first set of questions and answers, or the first e-mail exchange.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Interview.WebBased">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Web-based interview</skos:prefLabel>
+      <skos:notation>Interview.WebBased</skos:notation>
+      <skos:definition xml:lang="en">An interview conducted via the Internet. Examples include interviews conducted within online forums or using web-based audio-visual technology enabling the interviewer(s) and interviewee(s) to communicate in real time.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Self-administered questionnaire</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire</skos:notation>
+      <skos:definition xml:lang="en">Data collection method in which the respondent reads, or listens to the questions, and enters the responses by him/herself; no live interviewer is present, or participates in the questionnaire administration. If possible, use a narrower term.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fixed form self-administered questionnaire</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.FixedForm</skos:notation>
+      <skos:definition xml:lang="en">The questionnaire is not interactive and remains the same regardless of the responses given to prior questions. Use the broader term if the method is not described by any of the narrower terms. For example, for PDF and diskette questionnaires.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.Email">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fixed form self-administered questionnaire: E-mail</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.FixedForm.Email</skos:notation>
+      <skos:definition xml:lang="en">Questions are presented to the respondent in the text body of an e-mail, not as an attached electronic questionnaire or as a link to a web-based questionnaire.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.Paper">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fixed form self-administered questionnaire: Paper</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.FixedForm.Paper</skos:notation>
+      <skos:definition xml:lang="en">Self-administered survey using a traditional paper questionnaire delivered and/or collected by mail (postal services), by fax, or in person by either interviewer, or respondent.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.SMSorMMS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fixed form self-administered questionnaire: SMS/MMS</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.FixedForm.SMSorMMS</skos:notation>
+      <skos:definition xml:lang="en">The questions and answers are incorporated in SMS (text messages) or MMS (messages including multimedia content) sent to, and from mobile phones.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.FixedForm.WebBased">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fixed form self-administered questionnaire: Web-based</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.FixedForm.WebBased</skos:notation>
+      <skos:definition xml:lang="en">Data are collected using a Web questionnaire that is fixed (not interactive).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.Interactive</skos:notation>
+      <skos:definition xml:lang="en">Self-administered questionnaire in which the question sequence is not fixed, being managed by computer software. Some of the questions, as well as the order in which they are asked, are contingent to responses given to previous questions.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire: CASI</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.Interactive.CASI</skos:notation>
+      <skos:definition xml:lang="en">Computer-assisted self-interview. Data collection method in which the respondents enter their own answers directly into a computer (desktop, laptop, Palm/PDA, etc.). The administration of the questionnaire is managed by a specifically designed program, but there is no real-time data transfer, as in the case of CAWI: the answers are stored on the computer used for the interview. Use CASI if not known whether VCASI, ACASI, or TACASI.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI.VCASI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire: CASI: VCASI</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.Interactive.CASI.VCASI</skos:notation>
+      <skos:definition xml:lang="en">Video computer-assisted self-interview.  Earliest method of computer-assisted self-interviewing, in which respondents view the questions on a computer screen and typically enter answers using the computer keyboard, mouse, or touchscreen. (Thomas Harmon, et al. “Impact of T-ACASI on Survey Measurements of Subjective Phenomena”. Public Opinion Quarterly, vol. 73, issue 2, pp. 255-280)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI.ACASI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire: CASI: ACASI</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.Interactive.CASI.ACASI</skos:notation>
+      <skos:definition xml:lang="en">Audio computer-assisted self-interview.  Data are collected by using a recorded voice into a computer-assisted self-interview. The text of each question and its answer alternatives are displayed on the computer screen, while a pre-recorded interviewer’s voice reads these to the respondent, who listens privately through headphones. Respondents answer by selecting the appropriate response on the keyboard or directly on the computer screen. Sometimes referred to as audio-visual CASI (AVCASI).  (adapted from https://syrp.org/images/ACASI_Insert_Singles.pdf)</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CASI.TACASI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire: CASI: TACASI</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.Interactive.CASI.TACASI</skos:notation>
+      <skos:definition xml:lang="en">Telephone audio computer-assisted self-interview. TACASI adds telephone capabilities to a standard audio-CASI system, thereby allowing ACASI interviews to be conducted over the telephone, with the telephone’s touchtone keypad serving as the input device. (Thomas Harmon, et al. “Impact of TACASI on Survey Measurements of Subjective Phenomena”. Public Opinion Quarterly, vol. 73, issue 2, pp. 255-280).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredQuestionnaire.Interactive.CAWI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire: CAWI</skos:prefLabel>
+      <skos:notation>SelfAdministeredQuestionnaire.Interactive.CAWI</skos:notation>
+      <skos:definition xml:lang="en">Computer-assisted Web interview. The administration of the questionnaire completion is managed by a specifically designed program. Questions can be tailored to previous question responses, enabling routing plans. Answers are stored directly on the main database which is accessible through the Web, using a password-secured webpage.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Focus group</skos:prefLabel>
+      <skos:notation>FocusGroup</skos:notation>
+      <skos:definition xml:lang="en">A group discussion on a particular topic, organized for research purposes. The individuals are selected with relevance to the topic, and interaction among the participants is used as part of the method.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup.FaceToFace">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Face-to-face focus group</skos:prefLabel>
+      <skos:notation>FocusGroup.FaceToFace</skos:notation>
+      <skos:definition xml:lang="en">The focus group participants meet in person to conduct the discussion.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup.Telephone">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Telephone focus group</skos:prefLabel>
+      <skos:notation>FocusGroup.Telephone</skos:notation>
+      <skos:definition xml:lang="en">The focus group discussion is conducted over the telephone.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#FocusGroup.Online">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Online focus group</skos:prefLabel>
+      <skos:notation>FocusGroup.Online</skos:notation>
+      <skos:definition xml:lang="en">The focus group discussion is conducted over the Internet in an interactive manner.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Self-administered writings and/or diaries</skos:prefLabel>
+      <skos:notation>SelfAdministeredWritingsAndDiaries</skos:notation>
+      <skos:definition xml:lang="en">Narratives, stories, diaries and other personal written texts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries.Email">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Self-administered writings and/or diaries: E-mail</skos:prefLabel>
+      <skos:notation>SelfAdministeredWritingsAndDiaries.Email</skos:notation>
+      <skos:definition xml:lang="en">Narratives, stories, diaries and other written texts submitted by e-mail messages.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries.Paper">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Self-administered writings and/or diaries: Paper</skos:prefLabel>
+      <skos:notation>SelfAdministeredWritingsAndDiaries.Paper</skos:notation>
+      <skos:definition xml:lang="en">Narratives, stories, diaries and other written texts created and collected in paper form.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#SelfAdministeredWritingsAndDiaries.WebBased">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Self-administered writings and/or diaries: Web-based</skos:prefLabel>
+      <skos:notation>SelfAdministeredWritingsAndDiaries.WebBased</skos:notation>
+      <skos:definition xml:lang="en">Narratives, stories, diaries and other written texts gathered from Internet sources, e.g. websites, blogs, discussion forums.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Observation</skos:prefLabel>
+      <skos:notation>Observation</skos:notation>
+      <skos:definition xml:lang="en">Research method that involves collecting data as they occur (for example, observing behaviors, events, etc.), without attempting to manipulate any of the independent variables.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Field">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Field observation</skos:prefLabel>
+      <skos:notation>Observation.Field</skos:notation>
+      <skos:definition xml:lang="en">Observation that is conducted in a natural environment.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Field.Participant">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Participant field observation</skos:prefLabel>
+      <skos:notation>Observation.Field.Participant</skos:notation>
+      <skos:definition xml:lang="en">Type of field observation in which the researcher interacts with the subjects and often plays a role in the social situation under observation.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Field.Nonparticipant">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Non-participant field observation</skos:prefLabel>
+      <skos:notation>Observation.Field.Nonparticipant</skos:notation>
+      <skos:definition xml:lang="en">Observation that is conducted in a natural, non-controlled setting without any interaction between the researcher and his/her subjects.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Laboratory">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Laboratory observation</skos:prefLabel>
+      <skos:notation>Observation.Laboratory</skos:notation>
+      <skos:definition xml:lang="en">Observation that is conducted in a controlled, artificially created setting. Example: Observation of children’s play in a laboratory playroom.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Laboratory.Participant">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Participant laboratory observation</skos:prefLabel>
+      <skos:notation>Observation.Laboratory.Participant</skos:notation>
+      <skos:definition xml:lang="en">Type of laboratory observation in which the researcher interacts with the subjects and often plays a role in the social situation under observation. Example: Observation of children’s play in a laboratory playroom with the researcher taking part in the play.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.Laboratory.Nonparticipant">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Non-participant laboratory observation</skos:prefLabel>
+      <skos:notation>Observation.Laboratory.Nonparticipant</skos:notation>
+      <skos:definition xml:lang="en">Type of laboratory observation that is conducted without any interaction between the researcher and his/her subjects.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Observation.ComputerBased">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Computer-based observation</skos:prefLabel>
+      <skos:notation>Observation.ComputerBased</skos:notation>
+      <skos:definition xml:lang="en">Type of observation in which data regarding computer usage are being collected by software (like cookies, etc.) that is built into, or applied to local, or online computer programs. Information may be collected about the ways in which users interact with the programs, how much time they spend on a page, how they use specific sections of applications, how they navigate from page to page or from one application to another, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Experiment</skos:prefLabel>
+      <skos:notation>Experiment</skos:notation>
+      <skos:definition xml:lang="en">Research method involving the manipulation of some or all of the independent variables included in the hypotheses.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment.Laboratory">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Laboratory experiment</skos:prefLabel>
+      <skos:notation>Experiment.Laboratory</skos:notation>
+      <skos:definition xml:lang="en">An experiment conducted in a controlled, artificially created physical setting, in which a researcher manipulates one or several independent variables and measures its/their effect on the dependent variable.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment.FieldIntervention">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Field/Intervention experiment</skos:prefLabel>
+      <skos:notation>Experiment.FieldIntervention</skos:notation>
+      <skos:definition xml:lang="en">An experiment conducted in a natural, uncontrolled setting, in which the researcher manipulates one or several independent variables. Intervention/clinical studies are one example of field experiments.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Experiment.WebBased">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Web-based experiment</skos:prefLabel>
+      <skos:notation>Experiment.WebBased</skos:notation>
+      <skos:definition xml:lang="en">An experiment conducted in the virtual setting of the World Wide Web, in which experimental materials are programmed to implement artificial situations or events to be investigated in a distributed environment.(Reips, U.-D.(2002). Theory and techniques of Web experimenting. In B. Batinic, U.-D. Reips, and M. Bosnjak (Eds.), Online Social Sciences. Seattle: Hogrefe and Huber. Available: http://www.websm.org/uploadi/editor/Reips_2002_Theory_and_techniques.pdf [07 June 2013])</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Recording">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Recording</skos:prefLabel>
+      <skos:notation>Recording</skos:notation>
+      <skos:definition xml:lang="en">Registering by mechanical or electronic means, in a form that allows the information to be retrieved and/or reproduced. For example, images or sounds on disc or magnetic tape.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#ContentCoding">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Content coding</skos:prefLabel>
+      <skos:notation>ContentCoding</skos:notation>
+      <skos:definition xml:lang="en">As a mode of secondary data collection, content coding applies coding techniques to transform qualitative data (textual, video, audio or still-image) originally produced for other purposes into quantitative data (expressed in unit-by-variable matrices) in accordance with pre-defined categorization schemes. Example: coded party manifesto data like the "European Parliament Election Study 2009, Manifesto Study" (doi:10.4232/1.10204)"</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Transcription">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Transcription</skos:prefLabel>
+      <skos:notation>Transcription</skos:notation>
+      <skos:definition xml:lang="en">Capturing information in writing from a different source, or from a different medium, alphabet, or form of notation, like scientific formulae, or musical notes. For transcribed interviews or observations, it is recommended to document the primary mode of collection, using one of the interview or observation terms.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CompilationSynthesis">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Compilation/Synthesis</skos:prefLabel>
+      <skos:notation>CompilationSynthesis</skos:notation>
+      <skos:definition xml:lang="en">Collecting and assembling data from multiple, often heterogeneous sources that have one or more reference points in common, and at least one of the sources was originally produced for other purposes. The data are incorporated in a new entity. For example, providing data on the number of universities in the last 150 years using a variety of available sources (e.g. finance documents, official statistics, university registers), combining survey data with information about geographical areas from official statistics (e.g. population density, doctors per capita, etc.), or using RSS to collect blog posts or tweets, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Summary">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Summary</skos:prefLabel>
+      <skos:notation>Summary</skos:notation>
+      <skos:definition xml:lang="en">Presentation of information in a condensed form, by reducing it to its main points. Example: Abstracts of interviews or reports are published and used as data rather than the full-length interviews or reports.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Aggregation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Aggregation</skos:prefLabel>
+      <skos:notation>Aggregation</skos:notation>
+      <skos:definition xml:lang="en">Statistics that relate to broad classes, groups, or categories. The data are averaged, totaled, or otherwise derived from individual-level data, and it is no longer possible to distinguish the characteristics of individuals within those classes, groups, or categories. For example, the number and age group of the unemployed in specific geographic regions, or national level statistics on the occurrence of specific offences, originally derived from the statistics of individual police districts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Simulation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Simulation</skos:prefLabel>
+      <skos:notation>Simulation</skos:notation>
+      <skos:definition xml:lang="en">Modeling or imitative representation of real-world processes, events, or systems, often using computer programs. For example, a program modeling household consumption responses to indirect tax changes; or a dataset on hypothetical patients and their drug exposure, background conditions, and known adverse events.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Measurements and tests</skos:prefLabel>
+      <skos:notation>MeasurementsAndTests</skos:notation>
+      <skos:definition xml:lang="en">Assessing specific properties (or characteristics) of beings, things, phenomena, (and/ or processes) by applying pre-established standards and/or specialized instruments or techniques.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests.Educational">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Educational measurements and tests</skos:prefLabel>
+      <skos:notation>MeasurementsAndTests.Educational</skos:notation>
+      <skos:definition xml:lang="en">Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests.Physical">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Physical measurements and tests</skos:prefLabel>
+      <skos:notation>MeasurementsAndTests.Physical</skos:notation>
+      <skos:definition xml:lang="en">Assessment of physical properties of living beings, objects, materials, or natural phenomena. For example, blood pressure, heart rate, body weight and height, as well as time, distance, mass, temperature, force, power, speed, GPS data on physical movement and other physical parameters or variables, like geospatial data.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#MeasurementsAndTests.Psychological">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Psychological measurements and tests</skos:prefLabel>
+      <skos:notation>MeasurementsAndTests.Psychological</skos:notation>
+      <skos:definition xml:lang="en">Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests. For example, objective tests like self-report measures with a restricted response format, or projective methods allowing free responses, including word association, sentence or story completion, vignettes, cartoon test, thematic apperception tests, role play, drawing tests, inkblot tests, choice ordering exercises, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the mode of data collection is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Commonality Type</dcterms:title>
+      <skos:notation>CommonalityType</skos:notation>
+      <dcterms:description xml:lang="en">Describes the degree of similarity between two items or schemes (collections of items).</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#Identical"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#Some"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#None"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#Identical">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Identical</skos:prefLabel>
+      <skos:notation>Identical</skos:notation>
+      <skos:definition xml:lang="en">Use when the compared items have identical content. For variables, for example, all the elements of a variable description (name, label, question text, category values and codes, universe, concept) will be identical in form.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#Some">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Some</skos:prefLabel>
+      <skos:notation>Some</skos:notation>
+      <skos:definition xml:lang="en">Use when the compared items have similar but not identical content. For variables, for example, some of the elements of a variable description (name, label, question text, category values and codes, universe, concept) will be identical in form, while others will be different.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#None">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/CommonalityType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">None</skos:prefLabel>
+      <skos:notation>None</skos:notation>
+      <skos:definition xml:lang="en">Normally not used, as it would not be expected to compare items that have nothing in common. This term was necessary to complete the commonality range, and may be used in special cases, as determined by user needs (for instance, when comparability was expected, but not found).</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Summary Statistic Type</dcterms:title>
+      <skos:notation>SummaryStatisticType</skos:notation>
+      <dcterms:description xml:lang="en">Specifies the type of summary statistic. Summary statistics are a single number representation of the characteristics of a set of values.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType#"/>
+      <owl:versionInfo>2.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2014</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ArithmeticMean"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#GeometricMean"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#HarmonicMean"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#TrimmedMean"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#StandardErrorOfMean"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Mode"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Median"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ValidCases"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InvalidCases"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Minimum"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Maximum"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Range"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Sum"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Variance"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#StandardDeviation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CoefficientOfVariation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#AverageAbsoluteDeviation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#MedianAbsoluteDeviation"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstQuartile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Second Quartile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdQuartile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterquartileRange"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstQuintile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SecondQuintile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdQuintile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FourthQuintile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterquintileRange"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SecondDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FourthDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FifthDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SixthDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SeventhDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#EighthDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#NinthDecile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterdecileRange"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#OtherPercentile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Beta1"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Beta2"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ShapiroWilk"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#PercentageOfValidCases"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#PercentageOfInvalidCases"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ArithmeticMean">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Arithmetic mean (X)</skos:prefLabel>
+      <skos:notation>ArithmeticMean</skos:notation>
+      <skos:definition xml:lang="en">Mathematical average of a set of values. The mean is calculated by adding up two or more values and dividing the total by their number. In social/political science, it is usually the sum of the measurements divided by the number of subjects, or cases.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#GeometricMean">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Geometric mean</skos:prefLabel>
+      <skos:notation>GeometricMean</skos:notation>
+      <skos:definition xml:lang="en">Average value of all data if extracting the nth root of the product of all (n) values. Rarely used in social sciences.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#HarmonicMean">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Harmonic mean</skos:prefLabel>
+      <skos:notation>HarmonicMean</skos:notation>
+      <skos:definition xml:lang="en">Average value of all data if calculating the reciprocal of the arithmetic mean of the reciprocal of values. Rarely used in social sciences.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#TrimmedMean">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Trimmed mean</skos:prefLabel>
+      <skos:notation>TrimmedMean</skos:notation>
+      <skos:definition xml:lang="en">The (arithmetic) mean calculated after discarding given parts of observations at the high and low end (e.g., interquartile mean when the lowest 25% and the highest 25% are discarded, and the mean of the remaining values is calculated).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#StandardErrorOfMean">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Standard error of the mean</skos:prefLabel>
+      <skos:notation>StandardErrorOfMean</skos:notation>
+      <skos:definition xml:lang="en">The Standard Error for the mean value.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Mode">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Mode (Mo)</skos:prefLabel>
+      <skos:notation>Mode</skos:notation>
+      <skos:definition xml:lang="en">The most frequently observed data value (Statistics Canada).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Median">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Median (Mdn)</skos:prefLabel>
+      <skos:notation>Median</skos:notation>
+      <skos:definition xml:lang="en">The values below which, and above which, half of the values in a distribution fall (50th percentile).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ValidCases">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Valid Cases</skos:prefLabel>
+      <skos:notation>ValidCases</skos:notation>
+      <skos:definition xml:lang="en">Cases with observations which are considered to be valid, i.e., providing substantial information and to be included for calculation.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InvalidCases">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Invalid cases</skos:prefLabel>
+      <skos:notation>InvalidCases</skos:notation>
+      <skos:definition xml:lang="en">Cases which are considered/defined as "missing" (e.g., not ascertained, not applicable, etc.), usually excluded from calculation.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Minimum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Minimum</skos:prefLabel>
+      <skos:notation>Minimum</skos:notation>
+      <skos:definition xml:lang="en">The lowest valid value in a variable.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Maximum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Maximum</skos:prefLabel>
+      <skos:notation>Maximum</skos:notation>
+      <skos:definition xml:lang="en">The highest valid value in a variable.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Range">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Range</skos:prefLabel>
+      <skos:notation>Range</skos:notation>
+      <skos:definition xml:lang="en">The range of valid values, i.e., all values that fall between the lowest and highest valid values.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Sum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Sum</skos:prefLabel>
+      <skos:notation>Sum</skos:notation>
+      <skos:definition xml:lang="en">The sum or total of the values, across all valid cases.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Variance">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Variance (s2)</skos:prefLabel>
+      <skos:notation>Variance</skos:notation>
+      <skos:definition xml:lang="en">The variance is the mean square deviation of the variable around the average value. It reflects the dispersion of a frequency distribution around its mean (OECD Glossary of Statistics).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#StandardDeviation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Standard deviation (s)</skos:prefLabel>
+      <skos:notation>StandardDeviation</skos:notation>
+      <skos:definition xml:lang="en">The positive square root of the variance. The most widely used measure of dispersion of a frequency distribution.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CoefficientOfVariation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Coefficient of variation (CV)</skos:prefLabel>
+      <skos:notation>CoefficientOfVariation</skos:notation>
+      <skos:definition xml:lang="en">Standard deviation divided by the mean.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#AverageAbsoluteDeviation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Average absolute deviation (AAD)</skos:prefLabel>
+      <skos:notation>AverageAbsoluteDeviation</skos:notation>
+      <skos:definition xml:lang="en">The average of the absolute differences between each value and the overall mean. Measure of statistical dispersion around the mean, alternative to Standard Deviation.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#MedianAbsoluteDeviation">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Median absolute deviation (MAD)</skos:prefLabel>
+      <skos:notation>MedianAbsoluteDeviation</skos:notation>
+      <skos:definition xml:lang="en">The median absolute deviation from the median. Measure of statistical dispersion around the median.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstQuartile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">First quartile</skos:prefLabel>
+      <skos:notation>FirstQuartile</skos:notation>
+      <skos:definition xml:lang="en">The first of three values which separate the total frequency of a distribution into four equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Second Quartile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Second quartile</skos:prefLabel>
+      <skos:notation>Second Quartile</skos:notation>
+      <skos:definition xml:lang="en">The second of three values which separate the total frequency of a distribution into four equal parts (= median).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdQuartile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Third quartile</skos:prefLabel>
+      <skos:notation>ThirdQuartile</skos:notation>
+      <skos:definition xml:lang="en">The third of three values which separate the total frequency of a distribution into four equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterquartileRange">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interquartile range</skos:prefLabel>
+      <skos:notation>InterquartileRange</skos:notation>
+      <skos:definition xml:lang="en">The range between the first and third quartile values.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstQuintile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">First quintile</skos:prefLabel>
+      <skos:notation>FirstQuintile</skos:notation>
+      <skos:definition xml:lang="en">The first of four values which separate the total frequency of a distribution into five equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SecondQuintile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Second quintile</skos:prefLabel>
+      <skos:notation>SecondQuintile</skos:notation>
+      <skos:definition xml:lang="en">The second of four values which separate the total frequency of a distribution into five equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdQuintile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Third quintile</skos:prefLabel>
+      <skos:notation>ThirdQuintile</skos:notation>
+      <skos:definition xml:lang="en">The third of four values which separate the total frequency of a distribution into five equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FourthQuintile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fourth quintile</skos:prefLabel>
+      <skos:notation>FourthQuintile</skos:notation>
+      <skos:definition xml:lang="en">The fourth of four values which separate the total frequency of a distribution into five equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterquintileRange">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interquintile range</skos:prefLabel>
+      <skos:notation>InterquintileRange</skos:notation>
+      <skos:definition xml:lang="en">The range between the first and fourth quintile values.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">First decile</skos:prefLabel>
+      <skos:notation>FirstDecile</skos:notation>
+      <skos:definition xml:lang="en">The first of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SecondDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Second decile</skos:prefLabel>
+      <skos:notation>SecondDecile</skos:notation>
+      <skos:definition xml:lang="en">The second of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Third decile</skos:prefLabel>
+      <skos:notation>ThirdDecile</skos:notation>
+      <skos:definition xml:lang="en">The third of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FourthDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fourth decile</skos:prefLabel>
+      <skos:notation>FourthDecile</skos:notation>
+      <skos:definition xml:lang="en">The fourth of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FifthDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Fifth decile</skos:prefLabel>
+      <skos:notation>FifthDecile</skos:notation>
+      <skos:definition xml:lang="en">The fifth of nine values which separate the total frequency of a distribution into ten equal parts (= median).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SixthDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Sixth decile</skos:prefLabel>
+      <skos:notation>SixthDecile</skos:notation>
+      <skos:definition xml:lang="en">The sixth of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SeventhDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Seventh decile</skos:prefLabel>
+      <skos:notation>SeventhDecile</skos:notation>
+      <skos:definition xml:lang="en">The seventh of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#EighthDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Eighth decile</skos:prefLabel>
+      <skos:notation>EighthDecile</skos:notation>
+      <skos:definition xml:lang="en">The eighth of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#NinthDecile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Ninth decile</skos:prefLabel>
+      <skos:notation>NinthDecile</skos:notation>
+      <skos:definition xml:lang="en">The ninth of nine values which separate the total frequency of a distribution into ten equal parts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterdecileRange">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interdecile range</skos:prefLabel>
+      <skos:notation>InterdecileRange</skos:notation>
+      <skos:definition xml:lang="en">The range between the first and ninth decile values.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#OtherPercentile">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other percentile</skos:prefLabel>
+      <skos:notation>OtherPercentile</skos:notation>
+      <skos:definition xml:lang="en">A percentile not covered by any of the other percentile terms.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Beta1">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Skewness</skos:prefLabel>
+      <skos:notation>Beta1</skos:notation>
+      <skos:definition xml:lang="en">A measure for the asymmetry of a probability distribution of a variable.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Beta2">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Kurtosis</skos:prefLabel>
+      <skos:notation>Beta2</skos:notation>
+      <skos:definition xml:lang="en">A measure for the "peakedness" of a probability distribution of a variable.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ShapiroWilk">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Shapiro-Wilk</skos:prefLabel>
+      <skos:notation>ShapiroWilk</skos:notation>
+      <skos:definition xml:lang="en">Normality test statistics.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#PercentageOfValidCases">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Percentage of valid cases</skos:prefLabel>
+      <skos:notation>PercentageOfValidCases</skos:notation>
+      <skos:definition xml:lang="en">Indicates the percentage of valid cases of the total number of cases.
+	</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#PercentageOfInvalidCases">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Percentage of invalid cases</skos:prefLabel>
+      <skos:notation>PercentageOfInvalidCases</skos:notation>
+      <skos:definition xml:lang="en">Indicates the percentage of invalid cases of the total number of cases.
+	</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the summary statistic type is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

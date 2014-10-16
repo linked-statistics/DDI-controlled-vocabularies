@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Response Unit</dcterms:title>
+      <skos:notation>ResponseUnit</skos:notation>
+      <dcterms:description xml:lang="en">Indicates the entity that provided the information carried by the variable.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Self"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Informant"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Proxy"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Interviewer"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Self">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Self</skos:prefLabel>
+      <skos:notation>Self</skos:notation>
+      <skos:definition xml:lang="en">Unit of response is same as unit of observation/analysis.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Informant">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Informant</skos:prefLabel>
+      <skos:notation>Informant</skos:notation>
+      <skos:definition xml:lang="en">Unit of response is different than the unit of observation as part of the study design, and the identity of the response unit is also pre-determined by the study design. Such studies are actually called "informant surveys" and they involve, for instance, obtaining information about a community from certain select members who hold specific information, like church leaders, business owners or leaders, physicians, school teachers, civic leaders, etc. Or, if a business or organization is the unit of observation, information may be sought at different administrative/professional levels, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Proxy">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Proxy</skos:prefLabel>
+      <skos:notation>Proxy</skos:notation>
+      <skos:definition xml:lang="en">Unit of response is different than the unit of analysis because the sampled unit is unavailable/unable to participate. Proxies may be allowed by the study design, but their identity is not specifically designated (for example, anyone in the household can provide information about another household member, or any available student can provide information about another student, etc.).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Interviewer">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Interviewer</skos:prefLabel>
+      <skos:notation>Interviewer</skos:notation>
+      <skos:definition xml:lang="en">Data are entered directly by the interviewer, as a result of his/her own observations, and not by eliciting answers to a question.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ResponseUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the response unit is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

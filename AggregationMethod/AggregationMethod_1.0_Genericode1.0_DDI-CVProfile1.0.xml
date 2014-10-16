@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ddi-cv="urn:ddi-cv" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd">
+    <!--
+
+DDI Controlled Vocabulary AggregationMethod 1.0
+
+Copyright © DDI Alliance (http://www.ddialliance.org/) 2014.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+This work is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ 
+You are free:
+ 
+    * to Share - to copy, distribute and transmit the work
+    * to Remix - to adapt the work
+ 
+Under the following conditions:
+ 
+    * Attribution - You must attribute the work in the manner specified by
+      the author or licensor (but not in any way that suggests that they 
+      endorse you or your use of the work).
+    * Share Alike - If you alter, transform, or build upon this work, you
+      may distribute the resulting work only under the same or similar
+      license to this one.
+ 
+With the understanding that:
+ 
+    * Waiver - Any of the above conditions can be waived if you get
+      permission from the copyright holder.
+    * Public Domain - Where the work or any of its elements is in the
+      public domain under applicable law, that status is in no way 
+      affected by the license.
+    * Other Rights - In no way are any of the following rights affected by
+      the license:
+          - Your fair dealing or fair use rights, or other applicable 
+            copyright exceptions and limitations;
+          - The author's moral rights;
+          - Rights other persons may have either in the work itself or in 
+            how the work is used, such as publicity or privacy rights.
+    * Notice - For any reuse or distribution, you must make clear to
+      others the license terms of this work. The best way to do this is 
+      with a link to this web page.
+ 
+This is a human-readable summary of the Legal Code (the full license).
+ 
+Human-readable summary:
+http://creativecommons.org/licenses/by-sa/3.0/
+ 
+Full license:
+http://creativecommons.org/licenses/by-sa/3.0/legalcode
+ 
+License logo:
+http://i.creativecommons.org/l/by-sa/3.0/80x15.png
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+-->
+    <Annotation>
+        <Description>
+            <h:div xml:lang="en-US" class="Description">
+                <h:p>Identifies the type of aggregation used to combine related categories, usually within a common branch of a hierarchy, to provide information at a broader level than the level at which detailed observations are taken. (From: The OECD Glossary of Statistical Terms)</h:p>
+            </h:div>             
+            <h:div xml:lang="en-US" class="VersionNotes">
+                <h:p></h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="VersionChanges">
+                <h:p></h:p>
+            </h:div>
+            <h:div class="Usage">
+                <h:div class="DDI3.2">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2">DDI 3.2</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+                        <h:p>Identification of the type of aggregation method used. Supports the use of a controlled vocabulary.</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Module Name</h:th>
+                                <h:th>Element Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>reusable</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/reusable_xsd/elements/AggregationMethod.html">AggregationMethod</h:a>
+                                </h:td>
+                            </h:tr>
+                        </h:tbody>
+                    </h:table>
+                </h:div>
+                <h:div class="DDI2.5">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/">DDI 2.5</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+		              <h:p>The "otherAggrMeth" attribute holds a value from a controlled vocabulary when the aggrMeth attribute has a value of "other". This option should only be used when applying a controlled vocabulary to this attribute. Use the complex element controlledVocabUsed [in the Document Description section] to identify the controlled vocabulary to which the selected term belongs.
+		    	</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Element Number in DDI 2.1</h:th>
+                                <h:th>Element/Attribute Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>4.3</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/var.html">var@otherAggrMeth</h:a>
+                                </h:td>
+                            </h:tr>
+                            <h:tr>
+                                <h:td>4.4.13</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/measure.html">measure@otherAggrMeth</h:a>
+                                </h:td>
+                            </h:tr>                            
+                        </h:tbody>
+                    </h:table>
+                </h:div>
+            </h:div>
+        </Description>
+        <AppInfo>
+            <ddi-cv:Value key="LicenseName">Creative Commons Attribution-ShareAlike 3</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseUrl">http://creativecommons.org/licenses/by-sa/3.0/</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseLogoUrl">http://i.creativecommons.org/l/by-sa/3.0/80x15.png</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightText">Copyright ©</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwner">DDI Alliance</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwnerUrl">http://www.ddialliance.org/</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightYear">2014</ddi-cv:Value>
+        </AppInfo>
+    </Annotation>
+    <Identification>
+        <ShortName>AggregationMethod</ShortName>
+        <LongName xml:lang="en-US">Aggregation Method</LongName>
+        <Version>1.0</Version>
+        <CanonicalUri>urn:ddi-cv:AggregationMethod</CanonicalUri>
+        <CanonicalVersionUri>urn:ddi-cv:AggregationMethod:1.0</CanonicalVersionUri>
+        <LocationUri>http://www.ddialliance.org/Specification/DDI-CV/AggreagationMethod_1.0_Genericode1.0_DDI-CVProfile1.0.xml</LocationUri>
+        <AlternateFormatLocationUri MimeType="text/html">http://www.ddialliance.org/Specification/DDI-CV/AggregationMethod_1.0.html</AlternateFormatLocationUri>
+        <AlternateFormatLocationUri MimeType="application/vnd.ms-excel">http://www.ddialliance.org/Specification/DDI-CV/AggregationMethod_1.0_InputSheet_Excel2003.xls</AlternateFormatLocationUri>
+        <Agency>
+            <ShortName>DDI Alliance</ShortName>
+            <LongName xml:lang="en-US">The Alliance for the Data Documentation Initiative</LongName>
+            <Identifier>DDI</Identifier>
+        </Agency>
+    </Identification>
+    <ColumnSet>
+        <Column Use="required" Id="Code">
+            <ShortName>Code</ShortName>
+            <LongName xml:lang="en-US">Value of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Term">
+            <ShortName>Term</ShortName>
+            <LongName xml:lang="en-US">Descriptive Term of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Definition">
+            <ShortName>Definition</ShortName>
+            <LongName xml:lang="en-US">Definition of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="CodeKey">
+            <ShortName>CodeKey</ShortName>
+            <LongName xml:lang="en-US">The unique identification of each item in a code list.</LongName>
+            <ColumnRef Ref="Code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Sum</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Sum</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">A value obtained as a result of adding two or more numbers (items/amounts).</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>ArithmeticMean</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Arithmetic Mean</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Mathematical average of a set of values. The mean is calculated by adding up two or more values and dividing the total by their number. In social/political science, it is usually the sum of the measurements divided by the number of subjects, or cases.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Count</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Count</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Total number of units in a group of items</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Mode</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Mode</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The value that appears most often in a set of values</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Median</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Median</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The middle value in a series of values arranged sequentially from smallest to largest.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>        
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Maximum</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Maximum</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The highest value attained or recorded.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Minimum</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Minimum</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The lowest value attained or recorded.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Percent</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Percent</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The number of parts out of 100. In mathematics, a percentage is a number of ratio expressed as a fraction of 100. Percentages are used to express how large one quantity is relative to another quantity.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>CumulativePercent</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Cumulative Percent</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The total of a frequency and all frequencies below it in a frequency distribution; the "running total" of frequencies [the maximum value is 100%].</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>PercentileRank</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Percentile Rank</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">The percentile rank of a item is the percentage of items in its frequency distribution which are lower [cannot reach 100%].</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Other</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Other</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Use when the aggregation method is known, but not found in the list.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>        
+    </SimpleCodeList>
+</gc:CodeList>

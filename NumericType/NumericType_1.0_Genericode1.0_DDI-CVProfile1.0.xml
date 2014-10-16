@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ddi-cv="urn:ddi-cv" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd">
+    <!--
+
+DDI Controlled Vocabulary NumericType 1.0
+
+Copyright © DDI Alliance (http://www.ddialliance.org/) 2014.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+This work is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ 
+You are free:
+ 
+    * to Share - to copy, distribute and transmit the work
+    * to Remix - to adapt the work
+ 
+Under the following conditions:
+ 
+    * Attribution - You must attribute the work in the manner specified by
+      the author or licensor (but not in any way that suggests that they 
+      endorse you or your use of the work).
+    * Share Alike - If you alter, transform, or build upon this work, you
+      may distribute the resulting work only under the same or similar
+      license to this one.
+ 
+With the understanding that:
+ 
+    * Waiver - Any of the above conditions can be waived if you get
+      permission from the copyright holder.
+    * Public Domain - Where the work or any of its elements is in the
+      public domain under applicable law, that status is in no way 
+      affected by the license.
+    * Other Rights - In no way are any of the following rights affected by
+      the license:
+          - Your fair dealing or fair use rights, or other applicable 
+            copyright exceptions and limitations;
+          - The author's moral rights;
+          - Rights other persons may have either in the work itself or in 
+            how the work is used, such as publicity or privacy rights.
+    * Notice - For any reuse or distribution, you must make clear to
+      others the license terms of this work. The best way to do this is 
+      with a link to this web page.
+ 
+This is a human-readable summary of the Legal Code (the full license).
+ 
+Human-readable summary:
+http://creativecommons.org/licenses/by-sa/3.0/
+ 
+Full license:
+http://creativecommons.org/licenses/by-sa/3.0/legalcode
+ 
+License logo:
+http://i.creativecommons.org/l/by-sa/3.0/80x15.png
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+-->
+    <Annotation>
+        <Description>
+            <h:div xml:lang="en-US" class="Description">
+                <h:p>Specifies the type of numeric data.</h:p>
+            </h:div>          
+            <h:div xml:lang="en-US" class="VersionNotes">
+                <h:p></h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="VersionChanges">
+                <h:p></h:p>
+            </h:div>
+            <h:div class="Usage">
+                <h:div class="DDI3.2">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2">DDI 3.2</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+                        <h:p>Type of numeric data, i.e., integer, decimal, float, etc. Supports the use of an external controlled vocabulary. The use of a controlled vocabulary is strongly recommended.</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Module Name</h:th>
+                                <h:th>Element Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>reusable</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/reusable_xsd/elements/NumericTypeCode.html">NumericTypeCode</h:a>
+                                </h:td>
+                            </h:tr>
+                         </h:tbody>
+                    </h:table>
+                </h:div>
+                <h:div class="DDI2.5">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/">DDI 2.5</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+		              <h:p>For the category attribute, a value from a controlled vocabulary may be provided if the "other" value is chosen. In this case, the term from the controlled vocabulary should be placed in the "othercategory" attribute, and the controlledVocabUsed element (in the Document Description section) should also be filled in.</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Element Number in DDI 2.1</h:th>
+                                <h:th>Element/Attribute Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>4.3.23</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/varFormat.html">varFormat@category</h:a>
+                                </h:td>
+                            </h:tr>
+                           </h:tbody>
+                    </h:table>
+                </h:div>
+            </h:div>
+        </Description>
+        <AppInfo>
+            <ddi-cv:Value key="LicenseName">Creative Commons Attribution-ShareAlike 3</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseUrl">http://creativecommons.org/licenses/by-sa/3.0/</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseLogoUrl">http://i.creativecommons.org/l/by-sa/3.0/80x15.png</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightText">Copyright ©</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwner">DDI Alliance</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwnerUrl">http://www.ddialliance.org/</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightYear">2014</ddi-cv:Value>
+        </AppInfo>
+    </Annotation>
+    <Identification>
+        <ShortName>NumericType</ShortName>
+        <LongName xml:lang="en-US">Numeric Type</LongName>
+        <Version>1.0</Version>
+        <CanonicalUri>urn:ddi-cv:NumericType</CanonicalUri>
+        <CanonicalVersionUri>urn:ddi-cv:NumericType:1.0</CanonicalVersionUri>
+        <LocationUri>http://www.ddialliance.org/Specification/DDI-CV/NumericType_1.0_Genericode1.0_DDI-CVProfile1.0.xml</LocationUri>
+        <AlternateFormatLocationUri MimeType="text/html">http://www.ddialliance.org/Specification/DDI-CV/NumericType_1.0.html</AlternateFormatLocationUri>
+        <AlternateFormatLocationUri MimeType="application/vnd.ms-excel">http://www.ddialliance.org/Specification/DDI-CV/NumericType_1.0_InputSheet_Excel2003.xls</AlternateFormatLocationUri>
+        <Agency>
+            <ShortName>DDI Alliance</ShortName>
+            <LongName xml:lang="en-US">The Alliance for the Data Documentation Initiative</LongName>
+            <Identifier>DDI</Identifier>
+        </Agency>
+    </Identification>
+    <ColumnSet>
+        <Column Use="required" Id="Code">
+            <ShortName>Code</ShortName>
+            <LongName xml:lang="en-US">Value of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Term">
+            <ShortName>Term</ShortName>
+            <LongName xml:lang="en-US">Descriptive Term of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Definition">
+            <ShortName>Definition</ShortName>
+            <LongName xml:lang="en-US">Definition of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="CodeKey">
+            <ShortName>CodeKey</ShortName>
+            <LongName xml:lang="en-US">The unique identification of each item in a code list.</LongName>
+            <ColumnRef Ref="Code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>Integer</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Integer</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Whole numbers,  the infinite set of integers, no minimum or maximum value.  An integer datatype corresponding to the W3C XML Schema's xs:integer datatype.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>Int</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Int</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Whole numbers in the range -2147483648 .. 2147483647. An integer datatype corresponding to the W3C XML Schema's xs:int datatype.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Long</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Long</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Whole numbers in the range -9223372036854775808 .. 9223372036854775807. A numeric datatype corresponding to the W3C XML Schema's xs:long datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Short</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Short</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Whole numbers in the range -32768 .. 32767. A numeric datatype corresponding to the W3C XML Schema's xs:short datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Decimal</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Decimal</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator.  An optional leading sign is allowed. If the sign is omitted, "+" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210.  A numeric datatype corresponding to the W3C XML Schema's xs:decimal datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Float</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Float</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Single-precision 32-bit floating point type: The basic value space of float consists of the values m � 2 to the power of e, where m is an integer whose absolute value is less than 2 to the power of 24, and e is an integer between -149 and 104, inclusive. In addition, it also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float. A numeric datatype corresponding to the W3C XML Schema's xs:float datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Double</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Double</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Double-precision 64-bit floating point type. The basic value space of double consists of the values m � 2 to the power of e, where m is an integer whose absolute value is less than 2 to the power of 53, and e is an integer between -1075 and 970, inclusive. In addition to the basic value space described above, the value space of double also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double. A numeric datatype corresponding to the W3C XML Schema's xs:double datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Count</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Count</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Ordinal number of objects in a finite set, discrete. A simple incrementing Integer type. When using in DDI-L, the "isSequence" facet must be set to true, and the "interval" facet must be set to "1".</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Incremental</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Incremental</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">A value that increases continuously and infinitely by a given amount. Use of this term in DDI-L indicates that the value increases by the amount provided in the "interval" facet; the "isSequence" facet will be set to "true".</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Other</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Other</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Use if the numeric type is known, but not found in the list.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+    </SimpleCodeList>
+</gc:CodeList>

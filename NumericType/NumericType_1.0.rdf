@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Numeric Type</dcterms:title>
+      <skos:notation>NumericType</skos:notation>
+      <dcterms:description xml:lang="en">Specifies the type of numeric data.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2014</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Integer"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Int"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Long"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Short"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Decimal"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Float"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Double"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Count"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Incremental"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Integer">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Integer</skos:prefLabel>
+      <skos:notation>Integer</skos:notation>
+      <skos:definition xml:lang="en">Whole numbers,  the infinite set of integers, no minimum or maximum value.  An integer datatype corresponding to the W3C XML Schema's xs:integer datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Int">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Int</skos:prefLabel>
+      <skos:notation>Int</skos:notation>
+      <skos:definition xml:lang="en">Whole numbers in the range -2147483648 .. 2147483647. An integer datatype corresponding to the W3C XML Schema's xs:int datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Long">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Long</skos:prefLabel>
+      <skos:notation>Long</skos:notation>
+      <skos:definition xml:lang="en">Whole numbers in the range -9223372036854775808 .. 9223372036854775807. A numeric datatype corresponding to the W3C XML Schema's xs:long datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Short">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Short</skos:prefLabel>
+      <skos:notation>Short</skos:notation>
+      <skos:definition xml:lang="en">Whole numbers in the range -32768 .. 32767. A numeric datatype corresponding to the W3C XML Schema's xs:short datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Decimal">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Decimal</skos:prefLabel>
+      <skos:notation>Decimal</skos:notation>
+      <skos:definition xml:lang="en">A subset of real numbers, which can be represented by a finite-length sequence of decimal digits (0-9) separated by a period as a decimal indicator.  An optional leading sign is allowed. If the sign is omitted, "+" is assumed. Leading and trailing zeroes are optional. If the fractional part is zero, the period and following zero(es) can be omitted. For example: -1.23, 12678967.543233, +100000.00, 210.  A numeric datatype corresponding to the W3C XML Schema's xs:decimal datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Float">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Float</skos:prefLabel>
+      <skos:notation>Float</skos:notation>
+      <skos:definition xml:lang="en">Single-precision 32-bit floating point type: The basic value space of float consists of the values m � 2 to the power of e, where m is an integer whose absolute value is less than 2 to the power of 24, and e is an integer between -149 and 104, inclusive. In addition, it also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for float. A numeric datatype corresponding to the W3C XML Schema's xs:float datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Double">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Double</skos:prefLabel>
+      <skos:notation>Double</skos:notation>
+      <skos:definition xml:lang="en">Double-precision 64-bit floating point type. The basic value space of double consists of the values m � 2 to the power of e, where m is an integer whose absolute value is less than 2 to the power of 53, and e is an integer between -1075 and 970, inclusive. In addition to the basic value space described above, the value space of double also contains the following three special values: positive and negative infinity and not-a-number (NaN). The special values positive and negative infinity and not-a-number have lexical representations INF, -INF and NaN, respectively. Lexical representations for zero may take a positive or negative sign. For example, -1E4, 1267.43233E12, 12.78e-2, 12 , -0, 0 and INF are all legal literals for double. A numeric datatype corresponding to the W3C XML Schema's xs:double datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Count">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Count</skos:prefLabel>
+      <skos:notation>Count</skos:notation>
+      <skos:definition xml:lang="en">Ordinal number of objects in a finite set, discrete. A simple incrementing Integer type. When using in DDI-L, the "isSequence" facet must be set to true, and the "interval" facet must be set to "1".</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Incremental">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Incremental</skos:prefLabel>
+      <skos:notation>Incremental</skos:notation>
+      <skos:definition xml:lang="en">A value that increases continuously and infinitely by a given amount. Use of this term in DDI-L indicates that the value increases by the amount provided in the "interval" facet; the "isSequence" facet will be set to "true".</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/NumericType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the numeric type is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

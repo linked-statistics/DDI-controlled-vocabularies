@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Software Package</dcterms:title>
+      <skos:notation>SoftwarePackage</skos:notation>
+      <dcterms:description xml:lang="en">Indicates the statistical software package used in the production/processing/dissemination of the data. Data collection software is not covered in this list.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#AcaStat"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#ADaMSoft"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#AnalyseIt"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Auguri"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#BioStat"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#BMDP"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#BrightStat"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Dataplot"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#DBase"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#DIF"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#EasyReg"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#EpiInfo"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#EViews"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#GAUSS"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#GoldenHelix"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#GraphPadPrism"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Gretl"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#JMP"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Limdep"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#MacAnova"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Maple"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Mathematica"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#MatLab"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#MedCalc"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Minitab"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#ModelQED"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#NCSS"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#NSDStat"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#OpenEpi"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Origin"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Partek"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Primer"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#PSPP"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#RCommander"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#R"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#RATS"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#RKWard"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SalStat"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SAS"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Shazam"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SOCR"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SPlus"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SPSS"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Stata"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Statistica"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SUDAAN"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#TSP"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#AcaStat">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">AcaStat</skos:prefLabel>
+      <skos:notation>AcaStat</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#ADaMSoft">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">ADaMSoft</skos:prefLabel>
+      <skos:notation>ADaMSoft</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#AnalyseIt">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Analyse-it</skos:prefLabel>
+      <skos:notation>AnalyseIt</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Auguri">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Auguri</skos:prefLabel>
+      <skos:notation>Auguri</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#BioStat">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">BioStat</skos:prefLabel>
+      <skos:notation>BioStat</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#BMDP">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">BMDP</skos:prefLabel>
+      <skos:notation>BMDP</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#BrightStat">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">BrightStat</skos:prefLabel>
+      <skos:notation>BrightStat</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Dataplot">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Dataplot</skos:prefLabel>
+      <skos:notation>Dataplot</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#DBase">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">DBase</skos:prefLabel>
+      <skos:notation>DBase</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#DIF">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">DIF</skos:prefLabel>
+      <skos:notation>DIF</skos:notation>
+      <skos:definition xml:lang="en">Data interchange format suitable for use in Excel</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#EasyReg">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">EasyReg</skos:prefLabel>
+      <skos:notation>EasyReg</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#EpiInfo">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Epi Info</skos:prefLabel>
+      <skos:notation>EpiInfo</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#EViews">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">EViews</skos:prefLabel>
+      <skos:notation>EViews</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#GAUSS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">GAUSS</skos:prefLabel>
+      <skos:notation>GAUSS</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#GoldenHelix">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Golden Helix</skos:prefLabel>
+      <skos:notation>GoldenHelix</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#GraphPadPrism">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">GraphPad Prism</skos:prefLabel>
+      <skos:notation>GraphPadPrism</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Gretl">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">gretl</skos:prefLabel>
+      <skos:notation>Gretl</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#JMP">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">JMP</skos:prefLabel>
+      <skos:notation>JMP</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Limdep">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Limdep</skos:prefLabel>
+      <skos:notation>Limdep</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#MacAnova">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">MacAnova</skos:prefLabel>
+      <skos:notation>MacAnova</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Maple">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Maple</skos:prefLabel>
+      <skos:notation>Maple</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Mathematica">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Mathematica</skos:prefLabel>
+      <skos:notation>Mathematica</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#MatLab">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">MatLab</skos:prefLabel>
+      <skos:notation>MatLab</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#MedCalc">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">MedCalc</skos:prefLabel>
+      <skos:notation>MedCalc</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Minitab">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Minitab</skos:prefLabel>
+      <skos:notation>Minitab</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#ModelQED">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">modelQED</skos:prefLabel>
+      <skos:notation>ModelQED</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#NCSS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">NCSS</skos:prefLabel>
+      <skos:notation>NCSS</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#NSDStat">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">NSDStat</skos:prefLabel>
+      <skos:notation>NSDStat</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#OpenEpi">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">OpenEpi</skos:prefLabel>
+      <skos:notation>OpenEpi</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Origin">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Origin</skos:prefLabel>
+      <skos:notation>Origin</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Partek">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Partek</skos:prefLabel>
+      <skos:notation>Partek</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Primer">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Primer</skos:prefLabel>
+      <skos:notation>Primer</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#PSPP">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">PSPP</skos:prefLabel>
+      <skos:notation>PSPP</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#RCommander">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">R Commander</skos:prefLabel>
+      <skos:notation>RCommander</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#R">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">R</skos:prefLabel>
+      <skos:notation>R</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#RATS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">RATS</skos:prefLabel>
+      <skos:notation>RATS</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#RKWard">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">RKWard</skos:prefLabel>
+      <skos:notation>RKWard</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SalStat">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">SalStat</skos:prefLabel>
+      <skos:notation>SalStat</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SAS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">SAS</skos:prefLabel>
+      <skos:notation>SAS</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Shazam">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Shazam</skos:prefLabel>
+      <skos:notation>Shazam</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SOCR">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">SOCR</skos:prefLabel>
+      <skos:notation>SOCR</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SPlus">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">SPlus</skos:prefLabel>
+      <skos:notation>SPlus</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SPSS">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">SPSS</skos:prefLabel>
+      <skos:notation>SPSS</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Stata">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Stata</skos:prefLabel>
+      <skos:notation>Stata</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Statistica">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Statistica</skos:prefLabel>
+      <skos:notation>Statistica</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#SUDAAN">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">SUDAAN</skos:prefLabel>
+      <skos:notation>SUDAAN</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#TSP">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">TSP</skos:prefLabel>
+      <skos:notation>TSP</skos:notation>
+      <skos:definition xml:lang="en"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SoftwarePackage_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the software package is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

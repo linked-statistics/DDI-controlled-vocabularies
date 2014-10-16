@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ddi-cv="urn:ddi-cv" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd">
+    <!--
+
+DDI Controlled Vocabulary DateType 1.0
+
+Copyright © DDI Alliance (http://www.ddialliance.org/) 2014.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+This work is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ 
+You are free:
+ 
+    * to Share - to copy, distribute and transmit the work
+    * to Remix - to adapt the work
+ 
+Under the following conditions:
+ 
+    * Attribution - You must attribute the work in the manner specified by
+      the author or licensor (but not in any way that suggests that they 
+      endorse you or your use of the work).
+    * Share Alike - If you alter, transform, or build upon this work, you
+      may distribute the resulting work only under the same or similar
+      license to this one.
+ 
+With the understanding that:
+ 
+    * Waiver - Any of the above conditions can be waived if you get
+      permission from the copyright holder.
+    * Public Domain - Where the work or any of its elements is in the
+      public domain under applicable law, that status is in no way 
+      affected by the license.
+    * Other Rights - In no way are any of the following rights affected by
+      the license:
+          - Your fair dealing or fair use rights, or other applicable 
+            copyright exceptions and limitations;
+          - The author's moral rights;
+          - Rights other persons may have either in the work itself or in 
+            how the work is used, such as publicity or privacy rights.
+    * Notice - For any reuse or distribution, you must make clear to
+      others the license terms of this work. The best way to do this is 
+      with a link to this web page.
+ 
+This is a human-readable summary of the Legal Code (the full license).
+ 
+Human-readable summary:
+http://creativecommons.org/licenses/by-sa/3.0/
+ 
+Full license:
+http://creativecommons.org/licenses/by-sa/3.0/legalcode
+ 
+License logo:
+http://i.creativecommons.org/l/by-sa/3.0/80x15.png
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+-->
+    <Annotation>
+        <Description>
+            <h:div xml:lang="en-US" class="Description">
+                <h:p>Specifies the type of date</h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="Note">
+	    <h:p>The present list is based on ISO 8601 usage.</h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="VersionNotes">
+                <h:p></h:p>
+            </h:div>
+            <h:div xml:lang="en-US" class="VersionChanges">
+                <h:p></h:p>
+            </h:div>
+            <h:div class="Usage">
+                <h:div class="DDI3.2">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2">DDI 3.2</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+                        <h:p>This is a standard XML date type code and supports the use of an external controlled vocabulary. Examples are date, dateTime, gYearMonth, gYear, and duration.</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Module Name</h:th>
+                                <h:th>Element Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>reusable</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/reusable_xsd/elements/DateTypeCode.html">
+                                    DateTypeCode</h:a>
+                                </h:td>
+                            </h:tr>
+                         </h:tbody>
+                    </h:table>
+                </h:div>
+                <h:div class="DDI2.5">
+                    <h:div class="UsageTitle">
+                        <h:p>
+                            <a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/">DDI 2.5</a>
+                        </h:p>
+                    </h:div>
+                    <h:div class="Notes">
+		              <h:p>For the category attribute, a value from a controlled vocabulary may be provided if the "other" value is chosen. In this case, the term from the controlled vocabulary should be placed in the "othercategory" attribute, and the controlledVocabUsed element (in the Document Description section) should also be filled in.</h:p>
+                    </h:div>
+                    <h:table class="UsageDetails">
+                        <h:thead>
+                            <h:tr>
+                                <h:th>Element Number in DDI 2.1</h:th>
+                                <h:th>Element/Attribute Name</h:th>
+                            </h:tr>
+                        </h:thead>
+                        <h:tbody>
+                            <h:tr>
+                                <h:td>4.3.23</h:td>
+                                <h:td>
+                                    <h:a href="http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/varFormat.html">varFormat@category</h:a>
+                                </h:td>
+                            </h:tr>
+                           </h:tbody>
+                    </h:table>
+                </h:div>
+            </h:div>
+        </Description>
+        <AppInfo>
+            <ddi-cv:Value key="LicenseName">Creative Commons Attribution-ShareAlike 3</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseUrl">http://creativecommons.org/licenses/by-sa/3.0/</ddi-cv:Value>
+            <ddi-cv:Value key="LicenseLogoUrl">http://i.creativecommons.org/l/by-sa/3.0/80x15.png</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightText">Copyright ©</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwner">DDI Alliance</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightOwnerUrl">http://www.ddialliance.org/</ddi-cv:Value>
+            <ddi-cv:Value key="CopyrightYear">2014</ddi-cv:Value>
+        </AppInfo>
+    </Annotation>
+    <Identification>
+        <ShortName>DateType</ShortName>
+        <LongName xml:lang="en-US">Date Type</LongName>
+        <Version>1.0</Version>
+        <CanonicalUri>urn:ddi-cv:DateType</CanonicalUri>
+        <CanonicalVersionUri>urn:ddi-cv:DateType:1.0</CanonicalVersionUri>
+        <LocationUri>http://www.ddialliance.org/Specification/DDI-CV/DateType_1.0_Genericode1.0_DDI-CVProfile1.0.xml</LocationUri>
+        <AlternateFormatLocationUri MimeType="text/html">http://www.ddialliance.org/Specification/DDI-CV/DateType_1.0.html</AlternateFormatLocationUri>
+        <AlternateFormatLocationUri MimeType="application/vnd.ms-excel">http://www.ddialliance.org/Specification/DDI-CV/DateType_1.0_InputSheet_Excel2003.xls</AlternateFormatLocationUri>
+        <Agency>
+            <ShortName>DDI Alliance</ShortName>
+            <LongName xml:lang="en-US">The Alliance for the Data Documentation Initiative</LongName>
+            <Identifier>DDI</Identifier>
+        </Agency>
+    </Identification>
+    <ColumnSet>
+        <Column Use="required" Id="Code">
+            <ShortName>Code</ShortName>
+            <LongName xml:lang="en-US">Value of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Term">
+            <ShortName>Term</ShortName>
+            <LongName xml:lang="en-US">Descriptive Term of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Use="required" Id="Definition">
+            <ShortName>Definition</ShortName>
+            <LongName xml:lang="en-US">Definition of the Code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="CodeKey">
+            <ShortName>CodeKey</ShortName>
+            <LongName xml:lang="en-US">The unique identification of each item in a code list.</LongName>
+            <ColumnRef Ref="Code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>DateTime</SimpleValue>
+            </Value>
+            <Value ColumnRef="Term">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">DateTime</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+            <Value ColumnRef="Definition">
+                <ComplexValue>
+                    <ddi-cv:Value xml:lang="en-US">Integer-valued year, month, day, hour and minute, plus decimal-valued second property, and time zone hour and minute (e.g., 2002-10-10T12:00:00-05:00). A time datatype corresponding to the W3C XML Schema's xs:dateTime datatype.</ddi-cv:Value>
+                </ComplexValue>
+            </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>Time</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Time</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Left-truncated dateTime, e.g., 13:20:00-05:00 (1:20 pm for Eastern Standard Time U.S.) A time datatype corresponding to the W3C XML Schema's xs:time datatype.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>Date</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Date</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Integer-valued year, month, day, and time zone hour and minutes, e.g., 2003-06-30-05:00 (30 June 2003 Eastern Standard Time U.S.). A time datatype corresponding to the W3C XML Schema's xs:date datatype.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>GYearMonth</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">YearMonth</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Integer-valued year and month, e.g., 2004-11. A time datatype corresponding to the W3C XML Schema's xs:gYearMonth datatype.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>GYear</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Year</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Integer-valued year, e.g., 2005. A time datatype corresponding to the W3C XML Schema's xs:gYear datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>GMonthDay</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">MonthDay</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Integer-valued month and day, e.g., 12-31. A time datatype corresponding to the W3C XML Schema's xs:gMonthDay datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+           <Row>
+               <Value ColumnRef="Code">
+                   <SimpleValue>GDay</SimpleValue>
+               </Value>
+               <Value ColumnRef="Term">
+                   <ComplexValue>
+                       <ddi-cv:Value xml:lang="en-US">Day</ddi-cv:Value>
+                   </ComplexValue>
+               </Value>
+               <Value ColumnRef="Definition">
+                   <ComplexValue>
+                       <ddi-cv:Value xml:lang="en-US">Integer-valued day, e.g., 24.  A time datatype corresponding to the W3C XML Schema's xs:gDay datatype.</ddi-cv:Value>
+                   </ComplexValue>
+               </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>GMonth</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Month</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Integer-valued month. The lexical representation for gMonth is the left and right truncated lexical representation for date: --MM, e.g., 03. An optional following time zone qualifier is allowed as for date. No preceding sign is allowed. No other formats are allowed. A time datatype corresponding to the W3C XML Schema's xs:gMonth datatype.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>Duration</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Duration</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">A duration of time. The value space of "duration" is a six-dimensional space in which the coordinates designate the Gregorian year, month, day, hour, minute, and second components as defined in ISO 8601. These components are ordered in their significance by their order of appearance as year, month, day, hour, minute, and second. The lexical representation of duration is the extended format PnYnMnDTnHnMnS, where P is the flag for duration (i.e., Period) and is constant, nY represents the number of years, nM the number of months, nD the number of days, T is the date/time separator, nH the number of hours, nM the number of minutes and nS the number of seconds. The number of seconds can include decimal digits to arbitrary precision. For example, to indicate a duration of 1 year, 2 months, 3 days, 10 hours, and 30 minutes, one would write: "P1Y2M3DT10H30M". An optional preceding minus sign ("-") is allowed, to indicate a negative duration: a duration of minus 120 days would be indicated as: "-P120D". A time datatype corresponding to the W3C XML Schema's xs:duration datatype.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+          <Row>
+              <Value ColumnRef="Code">
+                  <SimpleValue>Timespan</SimpleValue>
+              </Value>
+              <Value ColumnRef="Term">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Timespan</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+              <Value ColumnRef="Definition">
+                  <ComplexValue>
+                      <ddi-cv:Value xml:lang="en-US">Complex structure containing start/end, start/duration, or duration/end. "Start" and "end" can follow any of the designated DateTime structures and should be declared in a fixed format. Examples: start/end: "2007-03-01T13:00:00/2008-05-11T15:30:00"; start/duration:  "2007-03-01T13:00:00/P1Y2M10DT2H30M"; duration/end: "P1Y2M10DT2H30M/2008-05-11T15:30:00". For start/end expressions, if any elment is missing from the end value, it is assumed to be the same as for the start value, including the time zone if used. For example a 2 hour meeting would be represented thusly: "2007-12-14T13:30/15:30". Note that this is not allowed as a date type in the description of an NCube, because the latter represents two or more dimensions.</ddi-cv:Value>
+                  </ComplexValue>
+              </Value>
+        </Row>
+         <Row>
+             <Value ColumnRef="Code">
+                 <SimpleValue>Other</SimpleValue>
+             </Value>
+             <Value ColumnRef="Term">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Other</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+             <Value ColumnRef="Definition">
+                 <ComplexValue>
+                     <ddi-cv:Value xml:lang="en-US">Use if the date type is known, but not found in the list.</ddi-cv:Value>
+                 </ComplexValue>
+             </Value>
+        </Row>
+ 
+    </SimpleCodeList>
+</gc:CodeList>

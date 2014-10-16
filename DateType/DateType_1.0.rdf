@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Date Type</dcterms:title>
+      <skos:notation>DateType</skos:notation>
+      <dcterms:description xml:lang="en">Specifies the type of date</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2014</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#DateTime"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Time"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Date"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GYearMonth"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GYear"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GMonthDay"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GDay"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GMonth"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Duration"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Timespan"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#DateTime">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">DateTime</skos:prefLabel>
+      <skos:notation>DateTime</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued year, month, day, hour and minute, plus decimal-valued second property, and time zone hour and minute (e.g., 2002-10-10T12:00:00-05:00). A time datatype corresponding to the W3C XML Schema's xs:dateTime datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Time">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Time</skos:prefLabel>
+      <skos:notation>Time</skos:notation>
+      <skos:definition xml:lang="en">Left-truncated dateTime, e.g., 13:20:00-05:00 (1:20 pm for Eastern Standard Time U.S.) A time datatype corresponding to the W3C XML Schema's xs:time datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Date">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Date</skos:prefLabel>
+      <skos:notation>Date</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued year, month, day, and time zone hour and minutes, e.g., 2003-06-30-05:00 (30 June 2003 Eastern Standard Time U.S.). A time datatype corresponding to the W3C XML Schema's xs:date datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GYearMonth">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">YearMonth</skos:prefLabel>
+      <skos:notation>GYearMonth</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued year and month, e.g., 2004-11. A time datatype corresponding to the W3C XML Schema's xs:gYearMonth datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GYear">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Year</skos:prefLabel>
+      <skos:notation>GYear</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued year, e.g., 2005. A time datatype corresponding to the W3C XML Schema's xs:gYear datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GMonthDay">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">MonthDay</skos:prefLabel>
+      <skos:notation>GMonthDay</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued month and day, e.g., 12-31. A time datatype corresponding to the W3C XML Schema's xs:gMonthDay datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GDay">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Day</skos:prefLabel>
+      <skos:notation>GDay</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued day, e.g., 24.  A time datatype corresponding to the W3C XML Schema's xs:gDay datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#GMonth">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Month</skos:prefLabel>
+      <skos:notation>GMonth</skos:notation>
+      <skos:definition xml:lang="en">Integer-valued month. The lexical representation for gMonth is the left and right truncated lexical representation for date: --MM, e.g., 03. An optional following time zone qualifier is allowed as for date. No preceding sign is allowed. No other formats are allowed. A time datatype corresponding to the W3C XML Schema's xs:gMonth datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Duration">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Duration</skos:prefLabel>
+      <skos:notation>Duration</skos:notation>
+      <skos:definition xml:lang="en">A duration of time. The value space of "duration" is a six-dimensional space in which the coordinates designate the Gregorian year, month, day, hour, minute, and second components as defined in ISO 8601. These components are ordered in their significance by their order of appearance as year, month, day, hour, minute, and second. The lexical representation of duration is the extended format PnYnMnDTnHnMnS, where P is the flag for duration (i.e., Period) and is constant, nY represents the number of years, nM the number of months, nD the number of days, T is the date/time separator, nH the number of hours, nM the number of minutes and nS the number of seconds. The number of seconds can include decimal digits to arbitrary precision. For example, to indicate a duration of 1 year, 2 months, 3 days, 10 hours, and 30 minutes, one would write: "P1Y2M3DT10H30M". An optional preceding minus sign ("-") is allowed, to indicate a negative duration: a duration of minus 120 days would be indicated as: "-P120D". A time datatype corresponding to the W3C XML Schema's xs:duration datatype.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Timespan">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Timespan</skos:prefLabel>
+      <skos:notation>Timespan</skos:notation>
+      <skos:definition xml:lang="en">Complex structure containing start/end, start/duration, or duration/end. "Start" and "end" can follow any of the designated DateTime structures and should be declared in a fixed format. Examples: start/end: "2007-03-01T13:00:00/2008-05-11T15:30:00"; start/duration:  "2007-03-01T13:00:00/P1Y2M10DT2H30M"; duration/end: "P1Y2M10DT2H30M/2008-05-11T15:30:00". For start/end expressions, if any elment is missing from the end value, it is assumed to be the same as for the start value, including the time zone if used. For example a 2 hour meeting would be represented thusly: "2007-12-14T13:30/15:30". Note that this is not allowed as a date type in the description of an NCube, because the latter represents two or more dimensions.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/DateType_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the date type is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

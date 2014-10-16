@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ddi-cv="urn:ddi-cv"
+         xmlns:h="http://www.w3.org/1999/xhtml"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:title xml:lang="en">Analysis Unit</dcterms:title>
+      <skos:notation>AnalysisUnit</skos:notation>
+      <dcterms:description xml:lang="en">Describes the entity being analyzed in the study or in the variable.</dcterms:description>
+      <dcterms:isVersionOf rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit#"/>
+      <owl:versionInfo>1.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+      <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Individual"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Organization"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family.HouseholdFamily"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Household"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#HousingUnit"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#EventOrProcess"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#GeographicUnit"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#TimeUnit"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#TextUnit"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Group"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Object"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Other"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Individual">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Individual</skos:prefLabel>
+      <skos:notation>Individual</skos:notation>
+      <skos:definition xml:lang="en">Any individual person, irrespective of demographic characteristics, professional, social or legal status, or affiliation.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Organization">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Organization</skos:prefLabel>
+      <skos:notation>Organization</skos:notation>
+      <skos:definition xml:lang="en">Any kind of formal administrative and functional structure - includes associations, institutions, agencies, businesses, political parties, schools, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Family</skos:prefLabel>
+      <skos:notation>Family</skos:notation>
+      <skos:definition xml:lang="en">Two or more people related by blood, marriage (including step-relations), adoption or fostering and who may or may not live together (National Community Services Data Dictionary, Vers 3, AIHW, 2004). For example, used when researching the extent to which people provide support and assistance for their relatives.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family.HouseholdFamily">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Family: Household family</skos:prefLabel>
+      <skos:notation>Family.HouseholdFamily</skos:notation>
+      <skos:definition xml:lang="en">A more specific term, refers only to related people who live in the same household at a point in time. If not known whether the analysis unit is "Family" or "Household family", use "Family".</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Household">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Household</skos:prefLabel>
+      <skos:notation>Household</skos:notation>
+      <skos:definition xml:lang="en">A person or a group of persons who share the same dwelling unit and common living arrangements. These common living arrangements may include pooling some, or all, of their income and wealth, and consuming certain types of goods and services collectively, mainly housing and food (Eurostat).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#HousingUnit">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Housing Unit</skos:prefLabel>
+      <skos:notation>HousingUnit</skos:notation>
+      <skos:definition xml:lang="en">U.S. Census: A housing unit is a house, an apartment, a mobile home, a group of rooms, or a single room that is occupied (or if vacant, is intended for occupancy) as separate living quarters. Separate living quarters are those in which the occupants live and eat separately from any other persons in the building and which have direct access from the outside of the building or through a common hall.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#EventOrProcess">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Event/Process</skos:prefLabel>
+      <skos:notation>EventOrProcess</skos:notation>
+      <skos:definition xml:lang="en">Any type of incident, occurrence, or activity. Events are usually one-time, individual occurrences, with a limited, or short duration. Examples: criminal offenses, riots, meetings, elections, sports competitions, terrorist attacks, natural disasters like floods, etc. Processes typically take place over time, and may include multiple "events" or gradual changes that ultimately lead, or are projected to lead, to a particular result. Examples: court trials, criminal investigations, political campaigns, medical treatments, education, athletes' training, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#GeographicUnit">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Geographic Unit</skos:prefLabel>
+      <skos:notation>GeographicUnit</skos:notation>
+      <skos:definition xml:lang="en">Any entity that can be spatially defined as a geographic area, with either natural (physical) or administrative boundaries.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#TimeUnit">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Time Unit</skos:prefLabel>
+      <skos:notation>TimeUnit</skos:notation>
+      <skos:definition xml:lang="en">Any period of time: year, week, month, day, or bimonthly or quarterly periods, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#TextUnit">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Text Unit</skos:prefLabel>
+      <skos:notation>TextUnit</skos:notation>
+      <skos:definition xml:lang="en">Books, articles, any written piece/entity.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Group">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Group</skos:prefLabel>
+      <skos:notation>Group</skos:notation>
+      <skos:definition xml:lang="en">Two or more individuals assembled together or having some unifying relationship.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Object">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Object</skos:prefLabel>
+      <skos:notation>Object</skos:notation>
+      <skos:definition xml:lang="en">Anything material, but inanimate, that has an independent existence and may be perceived by the senses. Examples: objects of art (paintings, sculptures, etc.) or weapons, or vehicles, etc.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Other">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
+      <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+      <skos:notation>Other</skos:notation>
+      <skos:definition xml:lang="en">Use if the unit of analysis is known, but not found in the list.</skos:definition>
+   </rdf:Description>
+</rdf:RDF>
