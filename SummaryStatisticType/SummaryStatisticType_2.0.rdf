@@ -36,7 +36,7 @@
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#AverageAbsoluteDeviation"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#MedianAbsoluteDeviation"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstQuartile"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Second Quartile"/>
+      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SecondQuartile"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#ThirdQuartile"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#InterquartileRange"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#FirstQuintile"/>
@@ -195,7 +195,7 @@
       <skos:notation>FirstQuartile</skos:notation>
       <skos:definition xml:lang="en">The first of three values which separate the total frequency of a distribution into four equal parts.</skos:definition>
    </rdf:Description>
-   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#Second Quartile">
+   <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#SecondQuartile">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/SummaryStatisticType_2.0#CodeList"/>
       <skos:prefLabel xml:lang="en">Second quartile</skos:prefLabel>
