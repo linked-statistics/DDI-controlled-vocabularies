@@ -32,17 +32,6 @@
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataCollection"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataCollectionReports"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Coding"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Classification"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.InterviewTranscriptions"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Weighting"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Aggregation"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.CompositeMeasures"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Derivation"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.DataQualityChecks"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.DataIntegration"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.DisclosureLimitation"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Imputation"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#MetadataProduction"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#MetadataEditing"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#MetadataTranslation"/>
@@ -161,6 +150,17 @@
       <skos:prefLabel xml:lang="en">Data processing</skos:prefLabel>
       <skos:notation>DataProcessing</skos:notation>
       <skos:definition xml:lang="en">Changes, additions or deletions brought to the data at any point in time after collection.</skos:definition>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Coding"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Classification"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.InterviewTranscriptions"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Weighting"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Aggregation"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.CompositeMeasures"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Derivation"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.DataQualityChecks"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.DataIntegration"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.DisclosureLimitation"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Imputation"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/LifecycleEventType_1.0#DataProcessing.Coding">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

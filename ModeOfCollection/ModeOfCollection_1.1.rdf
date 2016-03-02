@@ -18,45 +18,11 @@
       <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
       <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace.CAPI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace.PAPI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Telephone"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Telephone.CATI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Email"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.WebBased"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.Email"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.Paper"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.SMSorMMS"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.WebBased"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.VCASI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.ACASI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.TACASI"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CAWI"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.FaceToFace"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.Telephone"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.Online"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries.Email"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries.Paper"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries.WebBased"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field.Participant"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field.Nonparticipant"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory.Participant"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory.Nonparticipant"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.ComputerBased"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.Laboratory"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.FieldIntervention"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.WebBased"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Recording"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#ContentCoding"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Transcription"/>
@@ -65,9 +31,6 @@
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Aggregation"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Simulation"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Educational"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Physical"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Psychological"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Other"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview">
@@ -75,6 +38,10 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Interview</skos:prefLabel>
       <skos:notation>Interview</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Telephone"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Email"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.WebBased"/>
       <skos:definition xml:lang="en">A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). If group interaction is part of the method, use “Focus group”.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace">
@@ -82,6 +49,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Face-to-face interview</skos:prefLabel>
       <skos:notation>Interview.FaceToFace</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace.CAPI"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace.PAPI"/>
       <skos:definition xml:lang="en">Data collection method in which a live interviewer conducts a personal interview, presenting questions and entering the responses. Use this broader term if not CAPI or PAPI, or if not known whether CAPI /PAPI or not.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.FaceToFace.CAPI">
@@ -103,6 +72,7 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Telephone interview</skos:prefLabel>
       <skos:notation>Interview.Telephone</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Telephone.CATI"/>
       <skos:definition xml:lang="en">Interview administered on the telephone. Use this broader term if not CATI, or if not known whether CATI or not.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Interview.Telephone.CATI">
@@ -131,6 +101,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Self-administered questionnaire</skos:prefLabel>
       <skos:notation>SelfAdministeredQuestionnaire</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive"/>
       <skos:definition xml:lang="en">Data collection method in which the respondent reads, or listens to the questions, and enters the responses by him/herself; no live interviewer is present, or participates in the questionnaire administration. If possible, use a narrower term.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm">
@@ -138,6 +110,10 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Fixed form self-administered questionnaire</skos:prefLabel>
       <skos:notation>SelfAdministeredQuestionnaire.FixedForm</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.Email"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.Paper"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.SMSorMMS"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.WebBased"/>
       <skos:definition xml:lang="en">The questionnaire is not interactive and remains the same regardless of the responses given to prior questions. Use the broader term if the method is not described by any of the narrower terms. For example, for PDF and diskette questionnaires.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.FixedForm.Email">
@@ -173,6 +149,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire</skos:prefLabel>
       <skos:notation>SelfAdministeredQuestionnaire.Interactive</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CAWI"/>
       <skos:definition xml:lang="en">Self-administered questionnaire in which the question sequence is not fixed, being managed by computer software. Some of the questions, as well as the order in which they are asked, are contingent to responses given to previous questions.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI">
@@ -180,6 +158,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Interactive self-administered questionnaire: CASI</skos:prefLabel>
       <skos:notation>SelfAdministeredQuestionnaire.Interactive.CASI</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.VCASI"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.ACASI"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.TACASI"/>
       <skos:definition xml:lang="en">Computer-assisted self-interview. Data collection method in which the respondents enter their own answers directly into a computer (desktop, laptop, Palm/PDA, etc.). The administration of the questionnaire is managed by a specifically designed program, but there is no real-time data transfer, as in the case of CAWI: the answers are stored on the computer used for the interview. Use CASI if not known whether VCASI, ACASI, or TACASI.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredQuestionnaire.Interactive.CASI.VCASI">
@@ -215,6 +196,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Focus group</skos:prefLabel>
       <skos:notation>FocusGroup</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.FaceToFace"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.Telephone"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.Online"/>
       <skos:definition xml:lang="en">A group discussion on a particular topic, organized for research purposes. The individuals are selected with relevance to the topic, and interaction among the participants is used as part of the method.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#FocusGroup.FaceToFace">
@@ -243,6 +227,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Self-administered writings and/or diaries</skos:prefLabel>
       <skos:notation>SelfAdministeredWritingsAndDiaries</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries.Email"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries.Paper"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#SelfAdministeredWritingsAndDiaries.WebBased"/>
       <skos:definition xml:lang="en">Narratives, stories, diaries, and written texts created by the research subject.
 </skos:definition>
    </rdf:Description>
@@ -275,6 +262,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Observation</skos:prefLabel>
       <skos:notation>Observation</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.ComputerBased"/>
       <skos:definition xml:lang="en">Research method that involves collecting data as they occur (for example, observing behaviors, events, etc.), without attempting to manipulate any of the independent variables.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field">
@@ -282,6 +272,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Field observation</skos:prefLabel>
       <skos:notation>Observation.Field</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field.Participant"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field.Nonparticipant"/>
       <skos:definition xml:lang="en">Observation that is conducted in a natural environment.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Field.Participant">
@@ -303,6 +295,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Laboratory observation</skos:prefLabel>
       <skos:notation>Observation.Laboratory</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory.Participant"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory.Nonparticipant"/>
       <skos:definition xml:lang="en">Observation that is conducted in a controlled, artificially created setting. Example: Observation of children’s play in a laboratory playroom.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Observation.Laboratory.Participant">
@@ -331,6 +325,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Experiment</skos:prefLabel>
       <skos:notation>Experiment</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.Laboratory"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.FieldIntervention"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.WebBased"/>
       <skos:definition xml:lang="en">Research method involving the manipulation of some or all of the independent variables included in the hypotheses.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#Experiment.Laboratory">
@@ -408,6 +405,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Measurements and tests</skos:prefLabel>
       <skos:notation>MeasurementsAndTests</skos:notation>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Educational"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Physical"/>
+<skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Psychological"/>
       <skos:definition xml:lang="en">Assessing specific properties (or characteristics) of beings, things, phenomena, (and/ or processes) by applying pre-established standards and/or specialized instruments or techniques.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/ModeOfCollection_1.1#MeasurementsAndTests.Educational">

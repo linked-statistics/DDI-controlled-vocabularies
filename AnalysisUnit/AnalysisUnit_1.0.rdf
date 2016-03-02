@@ -20,7 +20,6 @@
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Individual"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Organization"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family.HouseholdFamily"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Household"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#HousingUnit"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#EventOrProcess"/>
@@ -50,6 +49,7 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#CodeList"/>
       <skos:prefLabel xml:lang="en">Family</skos:prefLabel>
       <skos:notation>Family</skos:notation>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family.HouseholdFamily"/>
       <skos:definition xml:lang="en">Two or more people related by blood, marriage (including step-relations), adoption or fostering and who may or may not live together (National Community Services Data Dictionary, Vers 3, AIHW, 2004). For example, used when researching the extent to which people provide support and assistance for their relatives.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/AnalysisUnit_1.0#Family.HouseholdFamily">

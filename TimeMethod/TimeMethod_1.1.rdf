@@ -18,14 +18,7 @@
       <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
       <dcterms:rights>Copyright © DDI Alliance 2011</dcterms:rights>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.CohortEventBased"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.TrendRepeatedCrossSection"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Continuous"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Interval"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Continuous"/>
-      <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Discrete"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CrossSection"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CrossSectionAdHocFollowUp"/>
       <skos:hasTopConcept rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Other"/>
@@ -35,6 +28,9 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Longitudinal</skos:prefLabel>
       <skos:notation>Longitudinal</skos:notation>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.CohortEventBased"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.TrendRepeatedCrossSection"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel"/>
       <skos:definition xml:lang="en">Data collected repeatedly over time to study change in a population.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.CohortEventBased">
@@ -56,6 +52,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Longitudinal: Panel</skos:prefLabel>
       <skos:notation>Longitudinal.Panel</skos:notation>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Continuous"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Interval"/>
       <skos:definition xml:lang="en">Data collected over time from, or about, the same sample of respondents.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#Longitudinal.Panel.Continuous">
@@ -77,6 +75,8 @@
       <skos:inScheme rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#CodeList"/>
       <skos:prefLabel xml:lang="en">Time Series</skos:prefLabel>
       <skos:notation>TimeSeries</skos:notation>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Continuous"/>
+      <skos:narrower rdf:resource="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Discrete"/>
       <skos:definition xml:lang="en">Data collected repeatedly over time to study change in observations. These are typically "objective" measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc.</skos:definition>
    </rdf:Description>
    <rdf:Description rdf:about="http://rdf-vocabulary.ddialliance.org/DDICV/TimeMethod_1.1#TimeSeries.Continuous">
